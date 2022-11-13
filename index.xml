@@ -240,7 +240,7 @@ data.head()
 
 
 
-&lt;div id=&#34;chart-159738264&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-962571438&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -250,7 +250,7 @@ data.head()
       clearInterval( a );
 
       Plotly.d3.json(&#34;./line-chart.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-159738264&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-962571438&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
@@ -733,7 +733,7 @@ $$&lt;/p&gt;
     </item>
     
     <item>
-      <title>An example conference paper</title>
+      <title>Transmission-Distribution Dynamic Co-simulation of Electric Vehicles Providing Grid Frequency Response</title>
       <link>https://example.com/publication/tdev/</link>
       <pubDate>Mon, 01 Jul 2013 00:00:00 +0000</pubDate>
       <guid>https://example.com/publication/tdev/</guid>
