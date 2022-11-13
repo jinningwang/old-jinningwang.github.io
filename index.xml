@@ -53,11 +53,11 @@
 
 
 
-&lt;figure  id=&#34;figure-covid-19-incidence-map-covid-19-incidence-map-of-380-metropolitan-statistical-areas-in-the-continental-us-during-april-may-2020&#34;&gt;
+&lt;figure  id=&#34;figure-fig1-covid-19-incidence-map-covid-19-incidence-map-of-380-metropolitan-statistical-areas-in-the-continental-us-during-april-may-2020&#34;&gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;./image/Fig1.svg&#34; alt=&#34;Fig1&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;figcaption&gt;
-      COVID-19 incidence map. COVID-19 Incidence map of 380 metropolitan statistical areas in the continental U.S. during April-May 2020.
+      Fig.1 COVID-19 incidence map. COVID-19 Incidence map of 380 metropolitan statistical areas in the continental U.S. during April-May 2020.
     &lt;/figcaption&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;p&gt;Figure 1 shows the COVID-19 incidence map of the 380 MSAs in the continental U.S. during the two-month window from April to May 2020. The
@@ -336,7 +336,7 @@ data.head()
 
 
 
-&lt;div id=&#34;chart-142673598&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-674923815&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -346,7 +346,7 @@ data.head()
       clearInterval( a );
 
       Plotly.d3.json(&#34;./line-chart.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-142673598&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-674923815&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
