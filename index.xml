@@ -41,14 +41,6 @@
     </item>
     
     <item>
-      <title>Electricity Consumption Variation versus Economic Structure during COVID-19 on Metropolitan in the United States</title>
-      <link>https://example.com/publication/covid/</link>
-      <pubDate>Thu, 01 Sep 2022 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/covid/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Transmission-Distribution Dynamic Co-simulation of Electric Vehicles Providing Grid Frequency Response</title>
       <link>https://example.com/publication/tdev/</link>
       <pubDate>Fri, 01 Jul 2022 00:00:00 +0000</pubDate>
@@ -61,6 +53,14 @@
       <link>https://example.com/publication/vis/</link>
       <pubDate>Thu, 07 Apr 2022 00:00:00 +0000</pubDate>
       <guid>https://example.com/publication/vis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Electricity Consumption Variation versus Economic Structure during COVID-19 on Metropolitan in the United States</title>
+      <link>https://example.com/publication/covid/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publication/covid/</guid>
       <description></description>
     </item>
     
@@ -248,7 +248,7 @@ data.head()
 
 
 
-&lt;div id=&#34;chart-257961843&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-259837164&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -258,7 +258,7 @@ data.head()
       clearInterval( a );
 
       Plotly.d3.json(&#34;./line-chart.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-257961843&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-259837164&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
