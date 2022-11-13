@@ -34,25 +34,25 @@
     
     <item>
       <title>Disturbance Propagation in Power Grids With High Converter Penetration</title>
-      <link>https://example.com/publication/journal-article/</link>
+      <link>https://example.com/publication/emw/</link>
       <pubDate>Thu, 01 Sep 2022 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/journal-article/</guid>
+      <guid>https://example.com/publication/emw/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Transmission-Distribution Dynamic Co-simulation of Electric Vehicles Providing Grid Frequency Response</title>
-      <link>https://example.com/publication/conference-paper/</link>
-      <pubDate>Fri, 01 Jul 2022 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/conference-paper/</guid>
+      <title>Electricity Consumption Variation versus Economic Structure during COVID-19 on Metropolitan in the United States</title>
+      <link>https://example.com/publication/covid/</link>
+      <pubDate>Thu, 01 Sep 2022 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publication/covid/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Virtual Inertia Scheduling for Power Systems with High Penetration of Inverter-based Resources</title>
-      <link>https://example.com/publication/preprint/</link>
+      <link>https://example.com/publication/vis/</link>
       <pubDate>Thu, 07 Apr 2022 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/preprint/</guid>
+      <guid>https://example.com/publication/vis/</guid>
       <description></description>
     </item>
     
@@ -240,7 +240,7 @@ data.head()
 
 
 
-&lt;div id=&#34;chart-419825367&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-159738264&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -250,7 +250,7 @@ data.head()
       clearInterval( a );
 
       Plotly.d3.json(&#34;./line-chart.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-419825367&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-159738264&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
@@ -730,6 +730,14 @@ $$&lt;/p&gt;
       <guid>https://example.com/project/ltb/</guid>
       <description>&lt;p&gt;The electric power grid is undergoing unprecedented modernization toward higher reliability, higher efficiency, and lower cost through the integration of renewable energy, wide-area monitoring, and advanced control technology. This integration is making the transmission grid overwhelmingly complex to understand and model to apply new control or actuation technologies. This calls for a fast-prototyping platform for research and testing under the new transmission technology paradigm. Such a platform should be highly integrated, closed loop, and capable of mimicking a real power grid for testing new controls or algorithms. However, traditional software simulation packages usually perform specific tasks such as dynamic simulation or state estimation but lack the capability of providing an integrated closed-loop platform.&lt;/p&gt;
 </description>
+    </item>
+    
+    <item>
+      <title>An example conference paper</title>
+      <link>https://example.com/publication/tdev/</link>
+      <pubDate>Mon, 01 Jul 2013 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publication/tdev/</guid>
+      <description></description>
     </item>
     
     <item>

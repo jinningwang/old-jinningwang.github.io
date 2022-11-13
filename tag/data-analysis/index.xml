@@ -5,12 +5,20 @@
     <link>https://example.com/tag/data-analysis/</link>
       <atom:link href="https://example.com/tag/data-analysis/index.xml" rel="self" type="application/rss+xml" />
     <description>Data Analysis</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 27 Apr 2016 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 01 Sep 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://example.com/media/icon_hu34517862f4a1ff29f087ce92eb66ea20_25692_512x512_fill_lanczos_center_3.png</url>
       <title>Data Analysis</title>
       <link>https://example.com/tag/data-analysis/</link>
     </image>
+    
+    <item>
+      <title>Electricity Consumption Variation versus Economic Structure during COVID-19 on Metropolitan in the United States</title>
+      <link>https://example.com/publication/covid/</link>
+      <pubDate>Thu, 01 Sep 2022 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publication/covid/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Electricity Consumption Variation versus Economic Structure during COVID-19</title>

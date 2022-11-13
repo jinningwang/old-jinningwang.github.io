@@ -14,25 +14,33 @@
     
     <item>
       <title>Disturbance Propagation in Power Grids With High Converter Penetration</title>
-      <link>https://example.com/publication/journal-article/</link>
+      <link>https://example.com/publication/emw/</link>
       <pubDate>Thu, 01 Sep 2022 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/journal-article/</guid>
+      <guid>https://example.com/publication/emw/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Transmission-Distribution Dynamic Co-simulation of Electric Vehicles Providing Grid Frequency Response</title>
-      <link>https://example.com/publication/conference-paper/</link>
-      <pubDate>Fri, 01 Jul 2022 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/conference-paper/</guid>
+      <title>Electricity Consumption Variation versus Economic Structure during COVID-19 on Metropolitan in the United States</title>
+      <link>https://example.com/publication/covid/</link>
+      <pubDate>Thu, 01 Sep 2022 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publication/covid/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Virtual Inertia Scheduling for Power Systems with High Penetration of Inverter-based Resources</title>
-      <link>https://example.com/publication/preprint/</link>
+      <link>https://example.com/publication/vis/</link>
       <pubDate>Thu, 07 Apr 2022 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/preprint/</guid>
+      <guid>https://example.com/publication/vis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>An example conference paper</title>
+      <link>https://example.com/publication/tdev/</link>
+      <pubDate>Mon, 01 Jul 2013 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publication/tdev/</guid>
       <description></description>
     </item>
     
