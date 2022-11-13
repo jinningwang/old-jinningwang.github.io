@@ -5,7 +5,7 @@
     <link>https://example.com/tag/power-system-modeling/</link>
       <atom:link href="https://example.com/tag/power-system-modeling/index.xml" rel="self" type="application/rss+xml" />
     <description>Power System Modeling</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 01 Sep 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 01 Oct 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://example.com/media/icon_hu34517862f4a1ff29f087ce92eb66ea20_25692_512x512_fill_lanczos_center_3.png</url>
       <title>Power System Modeling</title>
@@ -13,17 +13,9 @@
     </image>
     
     <item>
-      <title>Disturbance Propagation in Power Grids With High Converter Penetration</title>
-      <link>https://example.com/publication/emw/</link>
-      <pubDate>Thu, 01 Sep 2022 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/emw/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Transmission-Distribution Dynamic Co-simulation of Electric Vehicles Providing Grid Frequency Response</title>
       <link>https://example.com/publication/tdev/</link>
-      <pubDate>Fri, 01 Jul 2022 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 01 Oct 2022 00:00:00 +0000</pubDate>
       <guid>https://example.com/publication/tdev/</guid>
       <description></description>
     </item>
@@ -31,8 +23,16 @@
     <item>
       <title>Virtual Inertia Scheduling for Power Systems with High Penetration of Inverter-based Resources</title>
       <link>https://example.com/publication/vis/</link>
-      <pubDate>Thu, 07 Apr 2022 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 07 Sep 2022 00:00:00 +0000</pubDate>
       <guid>https://example.com/publication/vis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Disturbance Propagation in Power Grids With High Converter Penetration</title>
+      <link>https://example.com/publication/emw/</link>
+      <pubDate>Sun, 01 May 2022 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publication/emw/</guid>
       <description></description>
     </item>
     

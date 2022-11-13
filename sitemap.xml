@@ -14,44 +14,52 @@
     <lastmod>2030-06-01T13:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/publication-type/2/</loc>
-    <lastmod>2022-09-01T00:00:00+00:00</lastmod>
+    <loc>https://example.com/publication-type/1/</loc>
+    <lastmod>2022-10-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/publication/emw/</loc>
-    <lastmod>2022-09-01T00:00:00+00:00</lastmod>
+    <loc>https://example.com/publication-type/2/</loc>
+    <lastmod>2022-10-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://example.com/tag/data-analysis/</loc>
+    <lastmod>2022-10-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://example.com/publication/covid/</loc>
+    <lastmod>2022-10-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://example.com/tag/power-system-modeling/</loc>
-    <lastmod>2022-09-01T00:00:00+00:00</lastmod>
+    <lastmod>2022-10-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://example.com/publication_types/</loc>
-    <lastmod>2022-09-01T00:00:00+00:00</lastmod>
+    <lastmod>2022-10-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://example.com/publication/</loc>
-    <lastmod>2022-09-01T00:00:00+00:00</lastmod>
+    <lastmod>2022-10-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://example.com/tags/</loc>
     <lastmod>2022-11-13T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/publication-type/1/</loc>
-    <lastmod>2022-07-01T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
     <loc>https://example.com/publication/tdev/</loc>
-    <lastmod>2022-07-01T00:00:00+00:00</lastmod>
+    <lastmod>2022-10-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://example.com/publication-type/3/</loc>
-    <lastmod>2022-04-07T00:00:00+00:00</lastmod>
+    <lastmod>2022-09-07T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://example.com/publication/vis/</loc>
-    <lastmod>2022-04-07T00:00:00+00:00</lastmod>
+    <lastmod>2022-09-07T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://example.com/publication/emw/</loc>
+    <lastmod>2022-05-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://example.com/categories/</loc>
@@ -72,14 +80,6 @@
   </url><url>
     <loc>https://example.com/tag/review/</loc>
     <lastmod>2022-11-13T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://example.com/tag/data-analysis/</loc>
-    <lastmod>2022-01-01T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://example.com/publication/covid/</loc>
-    <lastmod>2022-01-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://example.com/tag/academic/</loc>

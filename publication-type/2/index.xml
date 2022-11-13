@@ -5,7 +5,7 @@
     <link>https://example.com/publication-type/2/</link>
       <atom:link href="https://example.com/publication-type/2/index.xml" rel="self" type="application/rss+xml" />
     <description>2</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 01 Sep 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 01 Oct 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://example.com/media/icon_hu34517862f4a1ff29f087ce92eb66ea20_25692_512x512_fill_lanczos_center_3.png</url>
       <title>2</title>
@@ -13,18 +13,18 @@
     </image>
     
     <item>
-      <title>Disturbance Propagation in Power Grids With High Converter Penetration</title>
-      <link>https://example.com/publication/emw/</link>
-      <pubDate>Thu, 01 Sep 2022 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/emw/</guid>
+      <title>Electricity Consumption Variation versus Economic Structure during COVID-19 on Metropolitan in the United States</title>
+      <link>https://example.com/publication/covid/</link>
+      <pubDate>Sat, 01 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publication/covid/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Electricity Consumption Variation versus Economic Structure during COVID-19 on Metropolitan in the United States</title>
-      <link>https://example.com/publication/covid/</link>
-      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/covid/</guid>
+      <title>Disturbance Propagation in Power Grids With High Converter Penetration</title>
+      <link>https://example.com/publication/emw/</link>
+      <pubDate>Sun, 01 May 2022 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publication/emw/</guid>
       <description></description>
     </item>
     

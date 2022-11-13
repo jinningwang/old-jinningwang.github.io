@@ -33,17 +33,17 @@
     </item>
     
     <item>
-      <title>Disturbance Propagation in Power Grids With High Converter Penetration</title>
-      <link>https://example.com/publication/emw/</link>
-      <pubDate>Thu, 01 Sep 2022 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/emw/</guid>
+      <title>Electricity Consumption Variation versus Economic Structure during COVID-19 on Metropolitan in the United States</title>
+      <link>https://example.com/publication/covid/</link>
+      <pubDate>Sat, 01 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publication/covid/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Transmission-Distribution Dynamic Co-simulation of Electric Vehicles Providing Grid Frequency Response</title>
       <link>https://example.com/publication/tdev/</link>
-      <pubDate>Fri, 01 Jul 2022 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 01 Oct 2022 00:00:00 +0000</pubDate>
       <guid>https://example.com/publication/tdev/</guid>
       <description></description>
     </item>
@@ -51,8 +51,16 @@
     <item>
       <title>Virtual Inertia Scheduling for Power Systems with High Penetration of Inverter-based Resources</title>
       <link>https://example.com/publication/vis/</link>
-      <pubDate>Thu, 07 Apr 2022 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 07 Sep 2022 00:00:00 +0000</pubDate>
       <guid>https://example.com/publication/vis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Disturbance Propagation in Power Grids With High Converter Penetration</title>
+      <link>https://example.com/publication/emw/</link>
+      <pubDate>Sun, 01 May 2022 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publication/emw/</guid>
       <description></description>
     </item>
     
@@ -97,14 +105,6 @@
 &lt;p&gt;There is little in life more exciting than that spark of realization in science when you glimpse a new way of seeing. You feel as if you were the first to stand on a mountain peak. You are seeing the world for a moment the way nobody before you has ever seen it. This is novelty and it happens in an instant but is enabled by all of one’s experience.&lt;/p&gt;
 &lt;p&gt;The resulting paper embodies the translation of the idea into code, experiments, and text. In this translation, the beauty of the spark may be only dimly glimpsed. My request of reviewers is to try to imagine the darkness before the spark.&lt;/p&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>Electricity Consumption Variation versus Economic Structure during COVID-19 on Metropolitan in the United States</title>
-      <link>https://example.com/publication/covid/</link>
-      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/covid/</guid>
-      <description></description>
     </item>
     
     <item>
@@ -291,7 +291,7 @@ data.head()
 
 
 
-&lt;div id=&#34;chart-179856432&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-167485392&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -301,7 +301,7 @@ data.head()
       clearInterval( a );
 
       Plotly.d3.json(&#34;./line-chart.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-179856432&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-167485392&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
