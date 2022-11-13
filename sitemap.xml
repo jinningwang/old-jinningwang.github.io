@@ -38,6 +38,10 @@
     <lastmod>2022-10-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
+    <loc>https://example.com/tag/frequency-regulation/</loc>
+    <lastmod>2022-10-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
     <loc>https://example.com/tag/power-system-modeling/</loc>
     <lastmod>2022-10-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -47,6 +51,10 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://example.com/publication/</loc>
+    <lastmod>2022-10-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://example.com/tag/renewable-integration/</loc>
     <lastmod>2022-10-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>

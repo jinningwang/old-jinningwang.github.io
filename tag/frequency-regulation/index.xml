@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Frequency Regulation | Jinning Wang</title>
+    <link>https://example.com/tag/frequency-regulation/</link>
+      <atom:link href="https://example.com/tag/frequency-regulation/index.xml" rel="self" type="application/rss+xml" />
+    <description>Frequency Regulation</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 01 Oct 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://example.com/media/icon_hu34517862f4a1ff29f087ce92eb66ea20_25692_512x512_fill_lanczos_center_3.png</url>
+      <title>Frequency Regulation</title>
+      <link>https://example.com/tag/frequency-regulation/</link>
+    </image>
+    
+    <item>
+      <title>Transmission-Distribution Dynamic Co-simulation of Electric Vehicles Providing Grid Frequency Response</title>
+      <link>https://example.com/publication/tdev/</link>
+      <pubDate>Sat, 01 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publication/tdev/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Virtual Inertia Scheduling for Power Systems with High Penetration of Inverter-based Resources</title>
+      <link>https://example.com/publication/vis/</link>
+      <pubDate>Wed, 07 Sep 2022 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publication/vis/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
