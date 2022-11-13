@@ -216,7 +216,7 @@ data.head()
 
 
 
-&lt;div id=&#34;chart-215769438&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-231584967&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -226,7 +226,7 @@ data.head()
       clearInterval( a );
 
       Plotly.d3.json(&#34;./line-chart.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-215769438&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-231584967&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
@@ -701,6 +701,16 @@ $$&lt;/p&gt;
 &lt;h1 id=&#34;questions&#34;&gt;Questions?&lt;/h1&gt;
 &lt;p&gt;&lt;a href=&#34;https://discord.gg/z8wNYzb&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ask&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://wowchemy.com/docs/content/slides/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Documentation&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Electricity Consumption Variation versus Economic Structure during COVID-19</title>
+      <link>https://example.com/project/covid/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>https://example.com/project/covid/</guid>
+      <description>&lt;p&gt;The outbreak of novel coronavirus disease (COVID-19) has resulted in changes in productivity and daily life patterns, and as a result electricity consumption (EC) has also shifted. In this paper, we construct estimates of EC changes at the metropolitan level across the continental U.S., including total EC and residential EC during the initial two months of the pandemic. The total and residential data on the state level were broken down into the county level, and then metropolitan level EC estimates were aggregated from the counties included in each metropolitan statistical area (MSA). This work shows that the reduction in total EC is related to the shares of certain industries in an MSA, whereas regardless of the incidence level or economic structure, the residential sector shows a trend of increasing EC across the continental U.S.. Since the MSAs account for 86% of the total population and 87% of the total EC of the continental U.S, the analytical result in this paper can provide important guidelines for future social-economic crises.The outbreak of novel coronavirus disease (COVID-19) has resulted in changes in productivity and daily life patterns, and as a result electricity consumption (EC) has also shifted. In this paper, we construct estimates of EC changes at the metropolitan level across the continental U.S., including total EC and residential EC during the initial two months of the pandemic. The total and residential data on the state level were broken down into the county level, and
+then metropolitan level EC estimates were aggregated from the counties included in each metropolitan statistical area (MSA). This work shows that the reduction in total EC is related to the shares of certain industries in an MSA, whereas regardless of the incidence level or economic structure, the residential sector shows a trend of increasing EC across the continental U.S.. Since the MSAs account for 86% of the total population and 87% of the total EC of the continental U.S, the analytical result in this paper can provide important guidelines for future social-economic crises.&lt;/p&gt;
 </description>
     </item>
     
