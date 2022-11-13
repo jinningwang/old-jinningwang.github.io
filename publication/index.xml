@@ -100,19 +100,63 @@
     &lt;/figcaption&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;p&gt;Figure 3 shows the EC change in the U.S. on the metropolitan level after the pandemic began. The EC variation of MSAs are estimated and plot on the map. It shows the overall trend that total EC declined while residential EC increased, which is reasonable due to the implementation of the work-from-home model, although some regions experienced the opposite change.&lt;/p&gt;
-&lt;p&gt;![Fig4](./image/Fig4.svg &amp;ldquo;Fig. 4 Total EC variation among different clusters. Box and whisker plots of total EC variation of April-May 2020 in comparison to pre-pandemic level; boxes depict the upper and lower quartiles of the data; black solid lines depict the median values; whiskers depict the range of the data excluding outliers (outliers are defined as observations larger than 1.5 × the inter-quartile range from the upper or lower quartiles); the grey dashed line depicts the median value of the total EC variation of 380 MSAs. Two-sided Wilcoxon rank sum tests of each Cluster versus all the MSAs are performed, and n2 =380 which is the case for all the eight tests. Cluster I:  &lt;em&gt;p&lt;/em&gt; =  0.0709,  &lt;em&gt;n1&lt;/em&gt; = 44,  &lt;em&gt;W&lt;/em&gt; =  -1.8063; Cluster II: *&lt;em&gt;p&lt;/em&gt; =  0.0116,  &lt;em&gt;n1&lt;/em&gt; = 19,  &lt;em&gt;W&lt;/em&gt; =  -2.5246; Cluster III:  &lt;em&gt;p&lt;/em&gt; =  0.4784,  &lt;em&gt;n1&lt;/em&gt; = 110,  &lt;em&gt;W&lt;/em&gt; =  0.7088; Cluster IV: ****&lt;em&gt;p&lt;/em&gt; &amp;lt;1e-4, n1 =42,  &lt;em&gt;W&lt;/em&gt; =  -4.2970; Cluster V: ***&lt;em&gt;p&lt;/em&gt; =  0.0001,  &lt;em&gt;n1&lt;/em&gt; = 120,  &lt;em&gt;W&lt;/em&gt; =  3.8057; Cluster VI:  &lt;em&gt;p&lt;/em&gt; =  0.6487,  &lt;em&gt;n1&lt;/em&gt; = 13,  &lt;em&gt;W&lt;/em&gt; =  0.4556; Cluster VII:  &lt;em&gt;p&lt;/em&gt; =  0.8865,  &lt;em&gt;n1&lt;/em&gt; = 16,  &lt;em&gt;W&lt;/em&gt; =  -0.1427; Cluster VIII:  &lt;em&gt;p&lt;/em&gt; =  0.8476,  &lt;em&gt;n1&lt;/em&gt; = 5,  &lt;em&gt;W&lt;/em&gt; =  -0.1921.”)&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-total-ec-variation-among-different-clusters&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;./image/Fig4.svg&#34; alt=&#34;Fig4&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      Total EC variation among different clusters.
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;/p&gt;
 &lt;p&gt;Figure 4 shows the boxplot of total EC variation between April-May 2019 and April-May 2020 on the metropolitan level among different economic structure clusters. It clearly demonstrates an overall pattern of total EC reduction across all clusters.&lt;/p&gt;
 &lt;p&gt;If we connect Figure 4 and Figure 2 to build some connections between total EC reduction and economic structures, the following observations can be presented.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;The total EC change indicates that Clusters II and IV have significantly higher EC reduction than the average. Both of them have a sizable mining industry (about 7%) while other economic categories are similar to the MSA average, as shown in Figure 2. Thus, it can be inferred that MSAs with a high proportion of mining industry saw less EC reduction than other MSAs (i.e., mining industry EC is less affected during the pandemic), which is evidenced by a statistical difference in total EC reduction of II-and-IV versus other MSAs (Wilcoxon rank sum test: ****&lt;em&gt;p&lt;/em&gt; &amp;lt;1e-4,  &lt;em&gt;n1&lt;/em&gt; = 61,  &lt;em&gt;n2&lt;/em&gt; = 319,  &lt;em&gt;W&lt;/em&gt; =  5.6761). This is reasonable, because the mining industry forms a significant portion of total electricity demand.&lt;/li&gt;
+&lt;li&gt;The total EC change indicates that Clusters II and IV have significantly higher EC reduction than the average. Both of them have a sizable mining industry (about 7%) while other economic categories are similar to the MSA average, as shown in Figure 2. Thus, it can be inferred that MSAs with a high proportion of mining industry saw less EC reduction than other MSAs (i.e., mining industry EC is less affected during the pandemic), which is evidenced by a statistical difference in total EC reduction of II-and-IV versus other MSAs. This is reasonable, because the mining industry forms a significant portion of total electricity demand.&lt;/li&gt;
 &lt;li&gt;Another significant observation is that both Clusters V and VI have a significantly higher proportion of agriculture/forestry and manufacturing than the MSA average, while their other economic categories are similar to the MSA average. The total EC of both clusters seem to have greater declines than the average level of total EC (i.e., the grey dashed line in Fig. 4), so this shows that agriculture/forestry and manufacturing tend to have more EC reduction during pandemic than other categories. Further observation is that the total EC of Cluster VI has less reduction than Cluster V, which can be possibly ascribed to higher mining industry share in Cluster VI than in Cluster V because mining industry EC is less affected during the pandemic, as discussed previously.&lt;/li&gt;
 &lt;li&gt;Clusters III and VII share similar economic structure characteristics, with a concentration on intelligence-intensive services such as the economic category of high-end services (i.e., information, finance/insurance, professional services) and the category of MAE (i.e., management, administrative, and educational) services. However, the total EC of Clusters III-VII does not demonstrate statistically significant differences versus the total EC of other MSAs (Wilcoxon rank sum test:  &lt;em&gt;p&lt;/em&gt; =  0.3919,  &lt;em&gt;n1&lt;/em&gt; = 126,  &lt;em&gt;n2&lt;/em&gt; = 254,  &lt;em&gt;W&lt;/em&gt; =  -0.8516). Thus, it can be statistically concluded that the load reduction in the high-end services and MAE services is aligned with average EC reduction. The possible reason is that although the computing loads of high-end and MAE services are shifted from offices to homes, and the residential home air conditioning loads stay at the same level before and after the pandemic, the air conditioning and lighting loads in commercial buildings should reduce considerably during the initial months of the pandemic. This makes the reduction pattern of high-end and MAE services similar to other economic categories.&lt;/li&gt;
-&lt;li&gt;Both Cluster I and VIII feature a disproportionately high share of the real estate/leasing and public administration industries in their economic structure, where the total EC reduction for the combination of Cluster I and VIII is statically less than in other clusters (Wilcoxon rank sum test: *&lt;em&gt;p&lt;/em&gt; =  0.0452,  &lt;em&gt;n1&lt;/em&gt; = 49,  &lt;em&gt;n2&lt;/em&gt; = 331,  &lt;em&gt;W&lt;/em&gt; =  2.0032). It means that the real estate business and public administration categories tend to have less reduction in total EC than other categories.&lt;/li&gt;
+&lt;li&gt;Both Cluster I and VIII feature a disproportionately high share of the real estate/leasing and public administration industries in their economic structure, where the total EC reduction for the combination of Cluster I and VIII is statically less than in other clusters. It means that the real estate business and public administration categories tend to have less reduction in total EC than other categories.&lt;/li&gt;
 &lt;li&gt;Regarding the impacts of the pandemic, total EC changes among different incidence MSAs do not show an obvious pattern.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;In summary, based on the observation, while there is an overall pattern of reduction in total EC across all clusters, the total EC variation is statistically related to economic structure during the initial months of COVID-19.&lt;/p&gt;
 &lt;p&gt;More specifically, economic structures more dependent on the mining industry exhibit significantly less EC reduction than other categories, and real estate/leasing and public administration industries also demonstrate less EC reduction after the start of the COVID-19 pandemic. In contrast, agriculture/forestry and manufacturing-dependent economic structures exhibit more EC reductions than other categories. Further, the EC reduction of intelligence-intensive services (e.g., high-end services, MAE services) is not significantly different from other categories.&lt;/p&gt;
-&lt;p&gt;![Fig5](./image/Fig5.svg &amp;ldquo;Fig. 5 Residential EC variation among different clusters. Box and whisker plots of residential EC variation of April-May 2020 in comparison to pre-pandemic level in April-May 2019; boxes depict the upper and lower quartiles of the data; black solid lines depict the median values; whiskers depict the range of the data excluding outliers (outliers are defined as observations larger than 1.5 × the inter-quartile range from the upper or lower quartiles); the grey dashed line depicts the median value of the residential EC variation of 380 MSAs. Two-sided Wilcoxon rank sum tests of each Cluster versus all the MSAs are performed, and n2 = 380 is the case for all the eight tests. Cluster I:  &lt;em&gt;p&lt;/em&gt; = 0.5535,  &lt;em&gt;n1&lt;/em&gt; =44, &lt;em&gt;W&lt;/em&gt; = 0.5926; Cluster II:  &lt;em&gt;p&lt;/em&gt; = 0.4344,  &lt;em&gt;n1&lt;/em&gt; =19,  &lt;em&gt;W&lt;/em&gt; = -0.7817; Cluster III:  &lt;em&gt;p&lt;/em&gt; = 0.3734,  &lt;em&gt;n1&lt;/em&gt; = 110,  &lt;em&gt;W&lt;/em&gt; = 0.8901; Cluster IV: **&lt;em&gt;p&lt;/em&gt; = 0.0023,  &lt;em&gt;n1&lt;/em&gt; =42,  &lt;em&gt;W&lt;/em&gt; = -3.0518; Cluster V:  &lt;em&gt;p&lt;/em&gt; = 0.0992,  &lt;em&gt;n1&lt;/em&gt; =120,  &lt;em&gt;W&lt;/em&gt; = 1.6488; Cluster VI:  &lt;em&gt;p&lt;/em&gt; = 0.6684,  &lt;em&gt;n1&lt;/em&gt; =13,  &lt;em&gt;W&lt;/em&gt; = 0.4283; Cluster VII:  &lt;em&gt;p&lt;/em&gt; = 0.0994, &lt;em&gt;n1&lt;/em&gt; =16,  &lt;em&gt;W&lt;/em&gt; = -1.6477; Cluster VIII:  &lt;em&gt;p&lt;/em&gt; = 0.0648,  &lt;em&gt;n1&lt;/em&gt; =5, &lt;em&gt;W&lt;/em&gt; = -1.8465.”)&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-residential-ec-variation-among-different-clusters&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;./image/Fig5.svg&#34; alt=&#34;Fig5&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      Residential EC variation among different clusters.
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;/p&gt;
 &lt;p&gt;Figure 5 shows the boxplot of residential EC variation between April-May 2019 and April-May 2020 at the metropolitan level among different economic structure clusters.&lt;/p&gt;
 &lt;p&gt;It evidently demonstrates an overall pattern of residential EC increase across all clusters. The figure shows that the residential EC increase in Cluster IV is higher than the average level. However, no obvious reason can be concluded. Cluster VII and VIII are also well above the average level, but the difference is not statistically significant. The reason is that the small sizes of observations of Cluster VII and VIII result in statistical insignificance. Overall, the median values among other clusters were not significantly different, and the median values of residential EC increases of all clusters are around 7-10%.&lt;/p&gt;
 &lt;p&gt;In summary, total EC variation during the initial months of COVID-19 is shown to be mainly related to economic structure, whereas residential EC is shown to have increased regardless of economic structure and COVID-19 incidence level.&lt;/p&gt;
