@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Power System Modeling | Jinning Wang 王晋宁</title>
+    <title>Power System Modeling | Jinning Wang</title>
     <link>https://example.com/tag/power-system-modeling/</link>
       <atom:link href="https://example.com/tag/power-system-modeling/index.xml" rel="self" type="application/rss+xml" />
     <description>Power System Modeling</description>
