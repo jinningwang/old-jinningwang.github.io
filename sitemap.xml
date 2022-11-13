@@ -62,6 +62,10 @@
     <lastmod>2022-05-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
+    <loc>https://example.com/publication/bess/</loc>
+    <lastmod>2022-02-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
     <loc>https://example.com/categories/</loc>
     <lastmod>2022-11-13T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>

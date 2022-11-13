@@ -17,7 +17,22 @@
       <link>https://example.com/publication/covid/</link>
       <pubDate>Sat, 01 Oct 2022 00:00:00 +0000</pubDate>
       <guid>https://example.com/publication/covid/</guid>
-      <description></description>
+      <description>&lt;p&gt;Fig. 1 COVID-19 incidence map. COVID-19 Incidence map of 380 metropolitan statistical areas in the continental U.S. during April-May 2020.&lt;/p&gt;
+&lt;p&gt;Figure 1 shows the COVID-19 incidence map of the 380 MSAs in the continental U.S. during the two-month window from April to May 2020. The
+COVID-19 incidence of MSAs are calculated and plot on the map from U.S. Census Bureau.&lt;/p&gt;
+&lt;p&gt;The pandemic situation on the west coast (e.g., the states of Washington, Oregon, and California) was low to medium, and the situation along the southeastern coast (e.g., the states of North Carolina, South Carolina, Georgia, and Florida) was medium. However, states along the northeastern coast were experiencing high-to-critical levels of COVID-19 incidence. The largest critical area was the MSA of New York-Newark-Jersey City, NY-NJ-PA, which encompasses 20 million people. Along the northeastern coast, there were two other MSAs at critical incidence levels: Vineland-Bridgeton, NJ and Salisbury, MD-DE. The incidence level map shows geographical relevance among these areas since the adjacent MSAs to New York-Newark-Jersey City, NY-NJ-PA also experienced a high incidence of COVID-19 at this time.&lt;/p&gt;
+&lt;p&gt;Fig. 2 Cluster centers of MSA economic structure. The length of each colored bar represents the GDP percentage of the corresponding economic category.&lt;/p&gt;
+&lt;p&gt;Figure 2 shows the economic structure of cluster centers of low (Cluster I and II), medium (Cluster III, IV, and V), and high incidence level (Cluster VI, VII, and VIII) MSAs. It should be noted that a cluster center is calculated from the mean value of all the observations in the corresponding cluster.&lt;/p&gt;
+&lt;p&gt;For simplicity, Figure 2 shows the categories that demonstrate statistically significant difference among each cluster (i.e., difference from MSA averages), while all other categories with no significant difference among different clusters are combined into “Other categories.” Further, GDP categories are rearranged as follows: 1) management, administrative, and educational services are combined as “MAE service”; 2) information, finance/insurance, and professional services are combined as “high-end services”; and 3) the “Other categories” include construction, wholesale trade, retail trade, accommodation/food services, arts/entertainment/recreation, and other services.&lt;/p&gt;
+&lt;p&gt;There are 11 MSAs in critical COVID-19 incidence level with no significant clustering trends, so the clustering results from these 11 MSAs are not discussed in the economic clustering analysis below. For comparison, the average economic composition of all 380 MSAs is displayed as different sections in the stacked bar chart in Figure 2.&lt;/p&gt;
+&lt;p&gt;The clusters&amp;rsquo; unique economic characteristics are summarized as follows:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;In terms of agriculture/forestry, Cluster V and VI have a higher percentage when compared to the MSA average level. Furthermore, one can also observe that the share of manufacturing of these two clusters is larger than the average level.&lt;/li&gt;
+&lt;li&gt;Regarding the mining industry, Cluster II and IV have a higher proportion than the MSA average level. Similarly, the transportation/warehousing of these two clusters is also above the average level.&lt;/li&gt;
+&lt;li&gt;As for real estate/leasing, Cluster I and VIII have a higher share than the MSA average. Also, their percentage of public administration is greater than the MSA average.&lt;/li&gt;
+&lt;li&gt;Another noteworthy point is that Cluster III and VII have a higher percentage of high-end services and MAE services. The MSA average is shown by the last bar of the figure for easy comparison.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
     </item>
     
     <item>
@@ -41,6 +56,14 @@
       <link>https://example.com/publication/emw/</link>
       <pubDate>Sun, 01 May 2022 00:00:00 +0000</pubDate>
       <guid>https://example.com/publication/emw/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Disturbance Propagation in Power Grids With High Converter Penetration</title>
+      <link>https://example.com/publication/bess/</link>
+      <pubDate>Tue, 01 Feb 2022 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publication/bess/</guid>
       <description></description>
     </item>
     
