@@ -33,7 +33,7 @@
     </item>
     
     <item>
-      <title>Electricity Consumption Variation versus Economic Structure during COVID-19 on Metropolitan in the United States</title>
+      <title>Disturbance Propagation in Power Grids With High Converter Penetration</title>
       <link>https://example.com/publication/journal-article/</link>
       <pubDate>Thu, 01 Sep 2022 00:00:00 +0000</pubDate>
       <guid>https://example.com/publication/journal-article/</guid>
@@ -224,7 +224,7 @@ data.head()
 
 
 
-&lt;div id=&#34;chart-746958132&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-681523479&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -234,7 +234,7 @@ data.head()
       clearInterval( a );
 
       Plotly.d3.json(&#34;./line-chart.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-746958132&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-681523479&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
