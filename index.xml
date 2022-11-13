@@ -136,11 +136,11 @@
 
 
 
-&lt;figure  id=&#34;figure-total-ec-variation-among-different-clusters&#34;&gt;
+&lt;figure  id=&#34;figure-fig4-total-ec-variation-among-different-clusters&#34;&gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;./image/Fig4.svg&#34; alt=&#34;Fig4&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;figcaption&gt;
-      Total EC variation among different clusters.
+      Fig.4 Total EC variation among different clusters.
     &lt;/figcaption&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;p&gt;Figure 4 shows the boxplot of total EC variation between April-May 2019 and April-May 2020 on the metropolitan level among different economic structure clusters. It clearly demonstrates an overall pattern of total EC reduction across all clusters.&lt;/p&gt;
@@ -170,11 +170,11 @@
 
 
 
-&lt;figure  id=&#34;figure-residential-ec-variation-among-different-clusters&#34;&gt;
+&lt;figure  id=&#34;figure-fig5-residential-ec-variation-among-different-clusters&#34;&gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;./image/Fig5.svg&#34; alt=&#34;Fig5&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;figcaption&gt;
-      Residential EC variation among different clusters.
+      Fig.5 Residential EC variation among different clusters.
     &lt;/figcaption&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;p&gt;Figure 5 shows the boxplot of residential EC variation between April-May 2019 and April-May 2020 at the metropolitan level among different economic structure clusters.&lt;/p&gt;
@@ -452,7 +452,7 @@ data.head()
 
 
 
-&lt;div id=&#34;chart-567894213&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-365947812&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -462,7 +462,7 @@ data.head()
       clearInterval( a );
 
       Plotly.d3.json(&#34;./line-chart.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-567894213&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-365947812&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
