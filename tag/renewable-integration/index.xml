@@ -36,5 +36,20 @@
       <description></description>
     </item>
     
+    <item>
+      <title>Cyber-Physical Dynamic System (CPDS) Modeling for Frequency Regulation and AGC Services of Distributed Energy Resources</title>
+      <link>https://example.com/project/cpds/</link>
+      <pubDate>Wed, 01 Sep 2021 00:00:00 +0000</pubDate>
+      <guid>https://example.com/project/cpds/</guid>
+      <description>&lt;p&gt;The substantial integration of renewable energy brings significant challenges to balance the system in real time because of the variability and intermittency of renewable power. For the reliable system operation, the frequency regulation service is used to stabilize the system frequency through automatically balancing the system generation and load.&lt;/p&gt;
+&lt;p&gt;On one hand, with the substantially increasing deployment of renewable energy in electricity system, the requirement of frequency regulation (FR) services increases significantly. On the other hand, the current main resource of FR services, the controllable conventional generation, is continuously decreasing in the system generation mix. This means that in the future high renewable penetration power system, additional and alternative reliable FR services providers such as distributed energy storage (DES) resources should be explored.&lt;/p&gt;
+&lt;p&gt;Although the capability of utility-scale energy storage to provide FR services has been demonstrated, the integrated control and dynamic modeling of distributed energy resource (DER) providing frequency regulation grid services has been rarely explored. There are several challenges to adopt DERs to provide reliable grid services as illustrated in FERC 755.&lt;/p&gt;
+&lt;p&gt;First, the distributed installation of DES requires a comprehensive cyber-physical dynamic system (CPDS) modeling to fully consider the impacts of the communication latency variability on its real time FR provision capability. Unlike the conventional generators, there are two-layer communication between DERs and system operators which increase the communication delay.&lt;/p&gt;
+&lt;p&gt;Second, unlike the conventional generators whose dynamic models have been comprehensively studied, the difference among individual DER components&amp;rsquo; power-dynamic characteristic brings challenges in the accurate dynamic AGC modeling of its power-frequency relationship.&lt;/p&gt;
+&lt;p&gt;Third, the temporal dependent state of charge uncertainty of DERs challenges DERs&amp;rsquo; power and frequency regulation capacities scheduling in the look-ahead generation scheduling. Therefore, the aggregator should optimize the frequency regulation provision from individual DER in real time.&lt;/p&gt;
+&lt;p&gt;To overcome these challenges, this project proposes a cyber-physical dynamic system (CPDS) model to handle the uncertainty of DERs two-layer communication latency and power dynamics. The variability of DERs&amp;rsquo; communication delay and dynamic constraints will be comprehensively modeled. The DERs&amp;rsquo; AGC model with communication delay is designed to validate DESs&amp;rsquo; frequency regulation services. Like current performance-based frequency regulation evaluation, the delivery of DERs&amp;rsquo; frequency regulation will be assessed through post-analysis of the actual AGC response with respect to the AGC control signal from system operators. Consequently, the reliability improvement with DERs providing reliable frequency regulation services can be evaluated from a comprehensive perspective considering all the dynamics of communication and power.&lt;/p&gt;
+</description>
+    </item>
+    
   </channel>
 </rss>
