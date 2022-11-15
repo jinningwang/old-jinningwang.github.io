@@ -86,7 +86,7 @@
     <lastmod>2022-11-13T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/post/shared/</loc>
+    <loc>https://example.com/post/novelty/</loc>
     <lastmod>2022-11-13T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
@@ -94,7 +94,7 @@
     <lastmod>2022-11-13T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/category/reproduction/</loc>
+    <loc>https://example.com/category/repost/</loc>
     <lastmod>2022-11-13T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
@@ -114,36 +114,8 @@
     <lastmod>2021-03-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/tag/academic/</loc>
-    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://example.com/category/demo/</loc>
-    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://example.com/post/getting-started/</loc>
-    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://example.com/tag/%E5%BC%80%E6%BA%90/</loc>
-    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://example.com/category/%E6%95%99%E7%A8%8B/</loc>
-    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
     <loc>https://example.com/project/covid/</loc>
     <lastmod>2020-08-01T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://example.com/post/writing-technical-content/</loc>
-    <lastmod>2019-07-12T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://example.com/post/jupyter/</loc>
-    <lastmod>2019-09-05T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://example.com/slides/</loc>

@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts | Jinning Wang</title>
-    <link>https://example.com/post/</link>
-      <atom:link href="https://example.com/post/index.xml" rel="self" type="application/rss+xml" />
-    <description>Posts</description>
+    <title>Repost | Jinning Wang</title>
+    <link>https://example.com/category/repost/</link>
+      <atom:link href="https://example.com/category/repost/index.xml" rel="self" type="application/rss+xml" />
+    <description>Repost</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 30 Jan 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://example.com/media/icon_hu34517862f4a1ff29f087ce92eb66ea20_25692_512x512_fill_lanczos_center_3.png</url>
-      <title>Posts</title>
-      <link>https://example.com/post/</link>
+      <title>Repost</title>
+      <link>https://example.com/category/repost/</link>
     </image>
     
     <item>
