@@ -66,10 +66,7 @@
       Fig.2 Cluster centers of MSA economic structure. The length of each colored bar represents the GDP percentage of the corresponding economic category.
     &lt;/figcaption&gt;&lt;/figure&gt;
 &lt;/p&gt;
-&lt;p&gt;Figure 2 shows the economic structure of cluster centers of low (Cluster I and II), medium (Cluster III, IV, and V), and high incidence level (Cluster VI, VII, and VIII) MSAs. It should be noted that a cluster center is calculated from the mean value of all the observations in the corresponding cluster.&lt;/p&gt;
-&lt;p&gt;For simplicity, Figure 2 shows the categories that demonstrate statistically significant difference among each cluster (i.e., difference from MSA averages), while all other categories with no significant difference among different clusters are combined into “Other categories.” Further, GDP categories are rearranged as follows: 1) management, administrative, and educational services are combined as “MAE service”; 2) information, finance/insurance, and professional services are combined as “high-end services”; and 3) the “Other categories” include construction, wholesale trade, retail trade, accommodation/food services, arts/entertainment/recreation, and other services.&lt;/p&gt;
-&lt;p&gt;There are 11 MSAs in critical COVID-19 incidence level with no significant clustering trends, so the clustering results from these 11 MSAs are not discussed in the economic clustering analysis below. For comparison, the average economic composition of all 380 MSAs is displayed as different sections in the stacked bar chart in Figure 2.&lt;/p&gt;
-&lt;p&gt;The clusters&amp;rsquo; unique economic characteristics are summarized as follows:&lt;/p&gt;
+&lt;p&gt;Figure 2 shows the economic structure of cluster centers of low (Cluster I and II), medium (Cluster III, IV, and V), and high incidence level (Cluster VI, VII, and VIII) MSAs. The clusters&amp;rsquo; unique economic characteristics are summarized as follows:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;In terms of agriculture/forestry, Cluster V and VI have a higher percentage when compared to the MSA average level. Furthermore, one can also observe that the share of manufacturing of these two clusters is larger than the average level.&lt;/li&gt;
 &lt;li&gt;Regarding the mining industry, Cluster II and IV have a higher proportion than the MSA average level. Similarly, the transportation/warehousing of these two clusters is also above the average level.&lt;/li&gt;
@@ -159,13 +156,12 @@
 &lt;/p&gt;
 &lt;p&gt;Figure 5 shows the boxplot of residential EC variation between April-May 2019 and April-May 2020 at the metropolitan level among different economic structure clusters.&lt;/p&gt;
 &lt;p&gt;It evidently demonstrates an overall pattern of residential EC increase across all clusters. The figure shows that the residential EC increase in Cluster IV is higher than the average level. However, no obvious reason can be concluded. Cluster VII and VIII are also well above the average level, but the difference is not statistically significant. The reason is that the small sizes of observations of Cluster VII and VIII result in statistical insignificance. Overall, the median values among other clusters were not significantly different, and the median values of residential EC increases of all clusters are around 7-10%.&lt;/p&gt;
-&lt;p&gt;In summary, total EC variation during the initial months of COVID-19 is shown to be mainly related to economic structure, whereas residential EC is shown to have increased regardless of economic structure and COVID-19 incidence level.&lt;/p&gt;
 &lt;h2 id=&#34;discussion&#34;&gt;Discussion&lt;/h2&gt;
 &lt;p&gt;This work proposes an easy-to-implement and effective method for estimating EC change under a widely applied lockdown policy, and reveals the connections between EC change and economic structure.&lt;/p&gt;
 &lt;p&gt;By considering the economic features of regions as they relate to potential pandemics or other social-economic crises as a set of new regulation rules or constraints, power grid administrators can improve energy resource planning and power grid operationsuch that the future power systems will be pandemic-ready.&lt;/p&gt;
 &lt;h2 id=&#34;a-personal-note&#34;&gt;A personal note&lt;/h2&gt;
 &lt;p&gt;This study is an interdisciplinary work involving power, economy, and the emerging subject of data science. Although the intersection of different subjects might challenge the researchers, the new perspective can be inspirational.&lt;/p&gt;
-&lt;p&gt;With prosperous open-resource communities, many well-documented tools significantly reduce the cost of data analysis. In addition, the constantly increased open-access database, including many authorative data sources, boost the data availability notably. Given the enriched ore and handily spade, many subjects will have newblood.&lt;/p&gt;
+&lt;p&gt;With prosperous open-source communities, many well-documented tools significantly reduce the cost of data analysis. In addition, the constantly increased open-access database, including many authoritative data resources, boost the data availability notably. Given the enriched ore and handily spade, many subjects will have new blood.&lt;/p&gt;
 </description>
     </item>
     
