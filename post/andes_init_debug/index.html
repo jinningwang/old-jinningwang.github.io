@@ -1014,10 +1014,10 @@ Generating code for 1 models on 8 processes.
 </code></pre>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="n">andes</span><span class="o">.</span><span class="n">config_logger</span><span class="p">(</span><span class="n">stream_level</span><span class="o">=</span><span class="mi">20</span><span class="p">)</span>
 </span></span></code></pre></div><p>Case0 is the base case in ANDES source repository.</p>
-<p>Case1-3 is the revised case.</p>
-<p>Case1 runs well, Case2 TDS initialization failed, and Case3 power flow failed.</p>
+<p>Case1-3 are the revised case.</p>
+<p>Case1 runs well, Case2 runs into TDS initialization failed, and Case3 runs into power flow divergence.</p>
 <p>These errors are common when revising the case and are usually caused by inappropriate parameters.</p>
-<p>In below, we will show how to recognize the reasons and fix the case.</p>
+<p>In below, we will show how to diagnose and fix the cases.</p>
 <h2 id="case0">Case0</h2>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="n">ss0</span><span class="o">.</span><span class="n">PFlow</span><span class="o">.</span><span class="n">run</span><span class="p">()</span>
 </span></span></code></pre></div><pre><code>-&gt; System connectivity check results:
