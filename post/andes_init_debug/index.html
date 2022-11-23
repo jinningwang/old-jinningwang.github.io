@@ -937,7 +937,7 @@
   
   <span class="middot-divider"></span>
   <span class="article-reading-time">
-    8 min read
+    9 min read
   </span>
   
 
@@ -1512,158 +1512,130 @@ Input file parsed in 0.0673 seconds.
 System internal structure set up in 0.0362 seconds.
 </code></pre>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="n">col_bus</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;idx&#39;</span><span class="p">,</span> <span class="s1">&#39;u&#39;</span><span class="p">,</span> <span class="s1">&#39;name&#39;</span><span class="p">,</span> <span class="s1">&#39;Vn&#39;</span><span class="p">,</span> <span class="s1">&#39;vmax&#39;</span><span class="p">,</span> <span class="s1">&#39;vmin&#39;</span><span class="p">,</span> <span class="s1">&#39;v0&#39;</span><span class="p">,</span> <span class="s1">&#39;a0&#39;</span><span class="p">]</span>
-</span></span><span class="line"><span class="cl"><span class="n">ss0</span><span class="o">.</span><span class="n">Bus</span><span class="o">.</span><span class="n">as_df</span><span class="p">()[</span><span class="n">col_bus</span><span class="p">]</span><span class="o">.</span><span class="n">iloc</span><span class="p">[</span><span class="o">-</span><span class="mi">3</span><span class="p">:]</span>
-</span></span></code></pre></div><div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-<pre><code>.dataframe tbody tr th {
-    vertical-align: top;
-}
-
-.dataframe thead th {
-    text-align: right;
-}`&lt;/style&gt;`
-</code></pre>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>idx</th>
-      <th>u</th>
-      <th>name</th>
-      <th>Vn</th>
-      <th>vmax</th>
-      <th>vmin</th>
-      <th>v0</th>
-      <th>a0</th>
-    </tr>
-    <tr>
-      <th>uid</th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>11</th>
-      <td>12</td>
-      <td>1.0</td>
-      <td>BUS12</td>
-      <td>138.0</td>
-      <td>1.1</td>
-      <td>0.9</td>
-      <td>0.98639</td>
-      <td>-0.128934</td>
-    </tr>
-    <tr>
-      <th>12</th>
-      <td>13</td>
-      <td>1.0</td>
-      <td>BUS13</td>
-      <td>138.0</td>
-      <td>1.1</td>
-      <td>0.9</td>
-      <td>0.98403</td>
-      <td>-0.133786</td>
-    </tr>
-    <tr>
-      <th>13</th>
-      <td>14</td>
-      <td>1.0</td>
-      <td>BUS14</td>
-      <td>138.0</td>
-      <td>1.1</td>
-      <td>0.9</td>
-      <td>0.99063</td>
-      <td>-0.166916</td>
-    </tr>
-  </tbody>
+</span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="n">ss0</span><span class="o">.</span><span class="n">Bus</span><span class="o">.</span><span class="n">as_df</span><span class="p">()[</span><span class="n">col_bus</span><span class="p">]</span><span class="o">.</span><span class="n">iloc</span><span class="p">[</span><span class="o">-</span><span class="mi">3</span><span class="p">:])</span>
+</span></span></code></pre></div><table>
+<thead>
+<tr>
+<th style="text-align:right"></th>
+<th style="text-align:right">idx</th>
+<th style="text-align:right">u</th>
+<th style="text-align:right">name</th>
+<th style="text-align:right">Vn</th>
+<th style="text-align:right">vmax</th>
+<th style="text-align:right">vmin</th>
+<th style="text-align:right">v0</th>
+<th style="text-align:right">a0</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:right">uid</td>
+<td style="text-align:right"></td>
+<td style="text-align:right"></td>
+<td style="text-align:right"></td>
+<td style="text-align:right"></td>
+<td style="text-align:right"></td>
+<td style="text-align:right"></td>
+<td style="text-align:right"></td>
+<td style="text-align:right"></td>
+</tr>
+<tr>
+<td style="text-align:right">11</td>
+<td style="text-align:right">12</td>
+<td style="text-align:right">1.0</td>
+<td style="text-align:right">BUS12</td>
+<td style="text-align:right">138.0</td>
+<td style="text-align:right">1.1</td>
+<td style="text-align:right">0.9</td>
+<td style="text-align:right">0.98639</td>
+<td style="text-align:right">-0.128934</td>
+</tr>
+<tr>
+<td style="text-align:right">12</td>
+<td style="text-align:right">13</td>
+<td style="text-align:right">1.0</td>
+<td style="text-align:right">BUS13</td>
+<td style="text-align:right">138.0</td>
+<td style="text-align:right">1.1</td>
+<td style="text-align:right">0.9</td>
+<td style="text-align:right">0.98403</td>
+<td style="text-align:right">-0.133786</td>
+</tr>
+<tr>
+<td style="text-align:right">13</td>
+<td style="text-align:right">14</td>
+<td style="text-align:right">1.0</td>
+<td style="text-align:right">BUS14</td>
+<td style="text-align:right">138.0</td>
+<td style="text-align:right">1.1</td>
+<td style="text-align:right">0.9</td>
+<td style="text-align:right">0.99063</td>
+<td style="text-align:right">-0.166916</td>
+</tr>
+</tbody>
 </table>
-</div>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="n">sc3</span><span class="o">.</span><span class="n">Bus</span><span class="o">.</span><span class="n">as_df</span><span class="p">()[</span><span class="n">col_bus</span><span class="p">]</span><span class="o">.</span><span class="n">iloc</span><span class="p">[</span><span class="o">-</span><span class="mi">3</span><span class="p">:]</span>
-</span></span></code></pre></div><div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-<pre><code>.dataframe tbody tr th {
-    vertical-align: top;
-}
-
-.dataframe thead th {
-    text-align: right;
-}`&lt;/style&gt;`
-</code></pre>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>idx</th>
-      <th>u</th>
-      <th>name</th>
-      <th>Vn</th>
-      <th>vmax</th>
-      <th>vmin</th>
-      <th>v0</th>
-      <th>a0</th>
-    </tr>
-    <tr>
-      <th>uid</th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>12</th>
-      <td>13</td>
-      <td>1.0</td>
-      <td>BUS13</td>
-      <td>138.0</td>
-      <td>1.1</td>
-      <td>0.9</td>
-      <td>0.98403</td>
-      <td>-0.133786</td>
-    </tr>
-    <tr>
-      <th>13</th>
-      <td>14</td>
-      <td>1.0</td>
-      <td>BUS14</td>
-      <td>138.0</td>
-      <td>1.1</td>
-      <td>0.9</td>
-      <td>0.99063</td>
-      <td>-0.166916</td>
-    </tr>
-    <tr>
-      <th>14</th>
-      <td>15</td>
-      <td>1.0</td>
-      <td>BUS15</td>
-      <td>138.0</td>
-      <td>1.1</td>
-      <td>0.9</td>
-      <td>1.00000</td>
-      <td>0.000000</td>
-    </tr>
-  </tbody>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="n">sc3</span><span class="o">.</span><span class="n">Bus</span><span class="o">.</span><span class="n">as_df</span><span class="p">()[</span><span class="n">col_bus</span><span class="p">]</span><span class="o">.</span><span class="n">iloc</span><span class="p">[</span><span class="o">-</span><span class="mi">3</span><span class="p">:])</span>
+</span></span></code></pre></div><table>
+<thead>
+<tr>
+<th style="text-align:right"></th>
+<th style="text-align:right">idx</th>
+<th style="text-align:right">u</th>
+<th style="text-align:right">name</th>
+<th style="text-align:right">Vn</th>
+<th style="text-align:right">vmax</th>
+<th style="text-align:right">vmin</th>
+<th style="text-align:right">v0</th>
+<th style="text-align:right">a0</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:right">uid</td>
+<td style="text-align:right"></td>
+<td style="text-align:right"></td>
+<td style="text-align:right"></td>
+<td style="text-align:right"></td>
+<td style="text-align:right"></td>
+<td style="text-align:right"></td>
+<td style="text-align:right"></td>
+<td style="text-align:right"></td>
+</tr>
+<tr>
+<td style="text-align:right">12</td>
+<td style="text-align:right">13</td>
+<td style="text-align:right">1.0</td>
+<td style="text-align:right">BUS13</td>
+<td style="text-align:right">138.0</td>
+<td style="text-align:right">1.1</td>
+<td style="text-align:right">0.9</td>
+<td style="text-align:right">0.98403</td>
+<td style="text-align:right">-0.133786</td>
+</tr>
+<tr>
+<td style="text-align:right">13</td>
+<td style="text-align:right">14</td>
+<td style="text-align:right">1.0</td>
+<td style="text-align:right">BUS14</td>
+<td style="text-align:right">138.0</td>
+<td style="text-align:right">1.1</td>
+<td style="text-align:right">0.9</td>
+<td style="text-align:right">0.99063</td>
+<td style="text-align:right">-0.166916</td>
+</tr>
+<tr>
+<td style="text-align:right">14</td>
+<td style="text-align:right">15</td>
+<td style="text-align:right">1.0</td>
+<td style="text-align:right">BUS15</td>
+<td style="text-align:right">138.0</td>
+<td style="text-align:right">1.1</td>
+<td style="text-align:right">0.9</td>
+<td style="text-align:right">1.00000</td>
+<td style="text-align:right">0.000000</td>
+</tr>
+</tbody>
 </table>
-</div>
 <p>Compared to the original Case0, Case3 inserts a new device <code>BUS15</code> with <code>v0</code> and <code>a0</code> being set as default values.</p>
 <p>This might be the reason why the power flow failed.</p>
 <p>We can try to adjust those values to fix the power flow.</p>
