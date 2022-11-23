@@ -121,7 +121,7 @@ True
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;blog_files/blog_14_0.png&#34; alt=&#34;png&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;./blog_14_0.png&#34; alt=&#34;png&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;(&amp;lt;Figure size 640x480 with 1 Axes&amp;gt;, &amp;lt;AxesSubplot:xlabel=&#39;Time [s]&#39;&amp;gt;)
