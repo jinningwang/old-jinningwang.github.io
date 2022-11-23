@@ -937,7 +937,7 @@
   
   <span class="middot-divider"></span>
   <span class="article-reading-time">
-    9 min read
+    8 min read
   </span>
   
 
@@ -1029,17 +1029,17 @@ Generating code for 1 models on 8 processes.
            Numba: Off
    Sparse solver: KLU
  Solution method: NR method
-Power flow initialized in 0.0111 seconds.
+Power flow initialized in 0.0065 seconds.
 0: |F(x)| = 0.5605182134
 1: |F(x)| = 0.006202200332
 2: |F(x)| = 5.819382825e-06
 3: |F(x)| = 6.957087684e-12
-Converged in 4 iterations in 0.0178 seconds.
+Converged in 4 iterations in 0.0054 seconds.
 
 True
 </code></pre>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="n">ss0i</span> <span class="o">=</span> <span class="n">ss0</span><span class="o">.</span><span class="n">TDS</span><span class="o">.</span><span class="n">init</span><span class="p">()</span>
-</span></span></code></pre></div><pre><code>Initialization for dynamics completed in 0.0767 seconds.
+</span></span></code></pre></div><pre><code>Initialization for dynamics completed in 0.0481 seconds.
 Initialization was successful.
 </code></pre>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="n">ss0</span><span class="o">.</span><span class="n">TDS</span><span class="o">.</span><span class="n">run</span><span class="p">()</span>
@@ -1050,7 +1050,7 @@ Fixed step size: h=33.33 ms. Shrink if not converged.
 
 0%|          | 0/100 [00:00&lt;?, ?%/s]
 
-Simulation to t=20.00 sec completed in 0.7133 seconds.
+Simulation to t=20.00 sec completed in 0.5169 seconds.
 
 True
 </code></pre>
@@ -1073,7 +1073,7 @@ True
 
 <figure  >
   <div class="d-flex justify-content-center">
-    <div class="w-100" ><img src="./index_14_0.png" alt="png" loading="lazy" data-zoomable /></div>
+    <div class="w-100" ><img src="blog_files/blog_14_0.png" alt="png" loading="lazy" data-zoomable /></div>
   </div></figure>
 </p>
 <pre><code>(&lt;Figure size 640x480 with 1 Axes&gt;, &lt;AxesSubplot:xlabel='Time [s]'&gt;)
@@ -1090,20 +1090,20 @@ True
            Numba: Off
    Sparse solver: KLU
  Solution method: NR method
-Power flow initialized in 0.0060 seconds.
+Power flow initialized in 0.0064 seconds.
 0: |F(x)| = 8.6568834
 1: |F(x)| = 7.007197233
 2: |F(x)| = 1.365637093
 3: |F(x)| = 0.1659350293
 4: |F(x)| = 0.003034072009
 5: |F(x)| = 9.897107155e-07
-Converged in 6 iterations in 0.0069 seconds.
+Converged in 6 iterations in 0.0143 seconds.
 
 True
 </code></pre>
 <p>Power flow solved.</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="n">ss1i</span> <span class="o">=</span> <span class="n">ss1</span><span class="o">.</span><span class="n">TDS</span><span class="o">.</span><span class="n">init</span><span class="p">()</span>
-</span></span></code></pre></div><pre><code>Initialization for dynamics completed in 0.0442 seconds.
+</span></span></code></pre></div><pre><code>Initialization for dynamics completed in 0.0431 seconds.
 Initialization was successful.
 </code></pre>
 <p>TDS initialized.</p>
@@ -1118,7 +1118,7 @@ Initialization was successful.
            Numba: Off
    Sparse solver: KLU
  Solution method: NR method
-Power flow initialized in 0.0081 seconds.
+Power flow initialized in 0.0060 seconds.
 0: |F(x)| = 15.44601457
 1: |F(x)| = 87.13552781
 2: |F(x)| = 51.0391057
@@ -1135,7 +1135,7 @@ Power flow initialized in 0.0081 seconds.
 13: |F(x)| = 6.92195374e-06
 14: |F(x)| = 1.730488435e-06
 15: |F(x)| = 4.326221087e-07
-Converged in 16 iterations in 0.0245 seconds.
+Converged in 16 iterations in 0.0331 seconds.
 
 True
 </code></pre>
@@ -1196,7 +1196,7 @@ vil ESST3A 3 | 0.278      | -0.078
 vil ESST3A 4 | 1.852      | -1.652
 vil ESST3A 5 | 0.633      | -0.433
 
-Initialization for dynamics completed in 0.0517 seconds.
+Initialization for dynamics completed in 0.0557 seconds.
 Initialization failed!!
 If you are developing a new model, check the initialization with
    andes -v 10 run -r tds --init /Users/jinningwang/Documents/work/andes/icebar/discussion386/ieee14_1.00_Line_12_0.90_1.00_1.30.xlsx
@@ -1211,146 +1211,30 @@ In the Model Reference or the model source code, it can be noticed that:</p>
 </ol>
 <p>Usually, the failed initialization is caused by the inapproriate limiter range, and it can be addressed by adjusting the range.</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="n">col_TGOV1</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;idx&#39;</span><span class="p">,</span> <span class="s1">&#39;u&#39;</span><span class="p">,</span> <span class="s1">&#39;name&#39;</span><span class="p">,</span> <span class="s1">&#39;syn&#39;</span><span class="p">,</span> <span class="s1">&#39;VMAX&#39;</span><span class="p">,</span> <span class="s1">&#39;VMIN&#39;</span><span class="p">]</span>
-</span></span><span class="line"><span class="cl"><span class="n">ss2</span><span class="o">.</span><span class="n">TGOV1</span><span class="o">.</span><span class="n">as_df</span><span class="p">()[</span><span class="n">col_TGOV1</span><span class="p">]</span>
-</span></span></code></pre></div><table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>idx</th>
-      <th>u</th>
-      <th>name</th>
-      <th>syn</th>
-      <th>VMAX</th>
-      <th>VMIN</th>
-    </tr>
-    <tr>
-      <th>uid</th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>TGOV1_1</td>
-      <td>1.0</td>
-      <td>TGOV1_1</td>
-      <td>GENROU_1</td>
-      <td>1.05</td>
-      <td>0.3</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>TGOV1_2</td>
-      <td>1.0</td>
-      <td>TGOV1_2</td>
-      <td>GENROU_2</td>
-      <td>1.20</td>
-      <td>0.0</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>TGOV1_3</td>
-      <td>1.0</td>
-      <td>TGOV1_3</td>
-      <td>GENROU_3</td>
-      <td>1.20</td>
-      <td>0.0</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>TGOV1_4</td>
-      <td>1.0</td>
-      <td>TGOV1_4</td>
-      <td>GENROU_4</td>
-      <td>1.05</td>
-      <td>0.3</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>TGOV1_5</td>
-      <td>1.0</td>
-      <td>TGOV1_5</td>
-      <td>GENROU_5</td>
-      <td>1.05</td>
-      <td>0.3</td>
-    </tr>
-  </tbody>
-</table>
-</div>
+</span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="n">ss2</span><span class="o">.</span><span class="n">TGOV1</span><span class="o">.</span><span class="n">as_df</span><span class="p">()[</span><span class="n">col_TGOV1</span><span class="p">])</span>
+</span></span></code></pre></div><pre><code>idx    u     name       syn  VMAX  VMIN
+uid
+0    TGOV1_1  1.0  TGOV1_1  GENROU_1  1.05   0.3
+1    TGOV1_2  1.0  TGOV1_2  GENROU_2  1.20   0.0
+2    TGOV1_3  1.0  TGOV1_3  GENROU_3  1.20   0.0
+3    TGOV1_4  1.0  TGOV1_4  GENROU_4  1.05   0.3
+4    TGOV1_5  1.0  TGOV1_5  GENROU_5  1.05   0.3
+</code></pre>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="n">col_ESST3A</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;idx&#39;</span><span class="p">,</span> <span class="s1">&#39;u&#39;</span><span class="p">,</span> <span class="s1">&#39;name&#39;</span><span class="p">,</span> <span class="s1">&#39;syn&#39;</span><span class="p">,</span> <span class="s1">&#39;VIMAX&#39;</span><span class="p">,</span> <span class="s1">&#39;VIMIN&#39;</span><span class="p">]</span>
-</span></span><span class="line"><span class="cl"><span class="n">ss2</span><span class="o">.</span><span class="n">ESST3A</span><span class="o">.</span><span class="n">as_df</span><span class="p">()[</span><span class="n">col_ESST3A</span><span class="p">]</span>
-</span></span></code></pre></div><table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>idx</th>
-      <th>u</th>
-      <th>name</th>
-      <th>syn</th>
-      <th>VIMAX</th>
-      <th>VIMIN</th>
-    </tr>
-    <tr>
-      <th>uid</th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>ESST3A_2</td>
-      <td>1.0</td>
-      <td>ESST3A_2</td>
-      <td>GENROU_1</td>
-      <td>0.2</td>
-      <td>-0.2</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>ESST3A_3</td>
-      <td>1.0</td>
-      <td>ESST3A_3</td>
-      <td>GENROU_3</td>
-      <td>0.2</td>
-      <td>-0.2</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>ESST3A_4</td>
-      <td>1.0</td>
-      <td>ESST3A_4</td>
-      <td>GENROU_4</td>
-      <td>0.2</td>
-      <td>-0.2</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>ESST3A_5</td>
-      <td>1.0</td>
-      <td>ESST3A_5</td>
-      <td>GENROU_5</td>
-      <td>0.2</td>
-      <td>-0.2</td>
-    </tr>
-  </tbody>
-</table>
-</div>
+</span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="n">ss2</span><span class="o">.</span><span class="n">ESST3A</span><span class="o">.</span><span class="n">as_df</span><span class="p">()[</span><span class="n">col_ESST3A</span><span class="p">])</span>
+</span></span></code></pre></div><pre><code>idx    u      name       syn  VIMAX  VIMIN
+uid
+0    ESST3A_2  1.0  ESST3A_2  GENROU_1    0.2   -0.2
+1    ESST3A_3  1.0  ESST3A_3  GENROU_3    0.2   -0.2
+2    ESST3A_4  1.0  ESST3A_4  GENROU_4    0.2   -0.2
+3    ESST3A_5  1.0  ESST3A_5  GENROU_5    0.2   -0.2
+</code></pre>
 <p>We can try to enlarge <code>VMAX</code> and <code>VMIN</code> of device <code>TGOV1_1</code>.</p>
 <p>However, it should be noted that since <code>ss2</code> has been initialziaed, we need to re-instantiate a new one.</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="n">sc2</span> <span class="o">=</span> <span class="n">andes</span><span class="o">.</span><span class="n">load</span><span class="p">(</span><span class="n">case2</span><span class="p">,</span>
 </span></span><span class="line"><span class="cl">                 <span class="n">default_config</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span>
 </span></span><span class="line"><span class="cl">                 <span class="n">no_output</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
-</span></span></code></pre></div><pre><code>Working directory: &quot;/Users/jinningwang/Documents/work/jwio/content/post/andes_init_debug&quot;
+</span></span></code></pre></div><pre><code>Working directory: &quot;/Users/jinningwang/Documents/work/andes/icebar/discussion386&quot;
 &gt; Reloaded generated Python code of module &quot;pycode&quot;.
 Generated code for`&lt;PQ&gt;` is stale.
 Numerical code generation (rapid incremental mode) started...
@@ -1359,10 +1243,10 @@ Generating code for 1 models on 8 processes.
 
 Saved generated pycode to &quot;/Users/jinningwang/.andes/pycode&quot;
 &gt; Reloaded generated Python code of module &quot;pycode&quot;.
-Generated numerical code for 1 models in 0.2471 seconds.
+Generated numerical code for 1 models in 0.1854 seconds.
 Parsing input file &quot;/Users/jinningwang/Documents/work/andes/icebar/discussion386/ieee14_1.00_Line_12_0.90_1.00_1.30.xlsx&quot;...
-Input file parsed in 0.0625 seconds.
-System internal structure set up in 0.0369 seconds.
+Input file parsed in 0.0619 seconds.
+System internal structure set up in 0.0367 seconds.
 </code></pre>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="n">sc2</span><span class="o">.</span><span class="n">TGOV1</span><span class="o">.</span><span class="n">set</span><span class="p">(</span><span class="n">idx</span><span class="o">=</span><span class="s1">&#39;TGOV1_1&#39;</span><span class="p">,</span> <span class="n">src</span><span class="o">=</span><span class="s1">&#39;VMAX&#39;</span><span class="p">,</span> <span class="n">attr</span><span class="o">=</span><span class="s1">&#39;v&#39;</span><span class="p">,</span> <span class="n">value</span><span class="o">=</span><span class="mi">10</span><span class="p">)</span>
 </span></span><span class="line"><span class="cl"><span class="n">sc2</span><span class="o">.</span><span class="n">TGOV1</span><span class="o">.</span><span class="n">set</span><span class="p">(</span><span class="n">idx</span><span class="o">=</span><span class="s1">&#39;TGOV1_1&#39;</span><span class="p">,</span> <span class="n">src</span><span class="o">=</span><span class="s1">&#39;VMIN&#39;</span><span class="p">,</span> <span class="n">attr</span><span class="o">=</span><span class="s1">&#39;v&#39;</span><span class="p">,</span> <span class="n">value</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span>
@@ -1388,7 +1272,7 @@ System internal structure set up in 0.0369 seconds.
            Numba: Off
    Sparse solver: KLU
  Solution method: NR method
-Power flow initialized in 0.0059 seconds.
+Power flow initialized in 0.0091 seconds.
 0: |F(x)| = 15.44601457
 1: |F(x)| = 87.13552781
 2: |F(x)| = 51.0391057
@@ -1405,7 +1289,7 @@ Power flow initialized in 0.0059 seconds.
 13: |F(x)| = 6.92195374e-06
 14: |F(x)| = 1.730488435e-06
 15: |F(x)| = 4.326221087e-07
-Converged in 16 iterations in 0.0223 seconds.
+Converged in 16 iterations in 0.0334 seconds.
 
 True
 </code></pre>
@@ -1447,7 +1331,7 @@ idx   | Flag | Input Value | Limit
  PQ_8  | zl   | 0.000       | 0.800
  PQ_11 | zl   | 0.369       | 0.800
 
-Initialization for dynamics completed in 0.0468 seconds.
+Initialization for dynamics completed in 0.0564 seconds.
 Initialization was successful.
 </code></pre>
 <h2 id="case3">Case3</h2>
@@ -1497,7 +1381,7 @@ False
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="n">sc3</span> <span class="o">=</span> <span class="n">andes</span><span class="o">.</span><span class="n">load</span><span class="p">(</span><span class="n">case3</span><span class="p">,</span>
 </span></span><span class="line"><span class="cl">                 <span class="n">default_config</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span>
 </span></span><span class="line"><span class="cl">                 <span class="n">no_output</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
-</span></span></code></pre></div><pre><code>Working directory: &quot;/Users/jinningwang/Documents/work/jwio/content/post/andes_init_debug&quot;
+</span></span></code></pre></div><pre><code>Working directory: &quot;/Users/jinningwang/Documents/work/andes/icebar/discussion386&quot;
 &gt; Reloaded generated Python code of module &quot;pycode&quot;.
 Generated code for`&lt;PQ&gt;` is stale.
 Numerical code generation (rapid incremental mode) started...
@@ -1506,136 +1390,164 @@ Generating code for 1 models on 8 processes.
 
 Saved generated pycode to &quot;/Users/jinningwang/.andes/pycode&quot;
 &gt; Reloaded generated Python code of module &quot;pycode&quot;.
-Generated numerical code for 1 models in 0.1908 seconds.
+Generated numerical code for 1 models in 0.3508 seconds.
 Parsing input file &quot;/Users/jinningwang/Documents/work/andes/icebar/discussion386/ieee14_1.00_Line_12_0.95_1.00_1.30.xlsx&quot;...
-Input file parsed in 0.0673 seconds.
-System internal structure set up in 0.0362 seconds.
+Input file parsed in 0.1040 seconds.
+System internal structure set up in 0.0633 seconds.
 </code></pre>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="n">col_bus</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;idx&#39;</span><span class="p">,</span> <span class="s1">&#39;u&#39;</span><span class="p">,</span> <span class="s1">&#39;name&#39;</span><span class="p">,</span> <span class="s1">&#39;Vn&#39;</span><span class="p">,</span> <span class="s1">&#39;vmax&#39;</span><span class="p">,</span> <span class="s1">&#39;vmin&#39;</span><span class="p">,</span> <span class="s1">&#39;v0&#39;</span><span class="p">,</span> <span class="s1">&#39;a0&#39;</span><span class="p">]</span>
 </span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="n">ss0</span><span class="o">.</span><span class="n">Bus</span><span class="o">.</span><span class="n">as_df</span><span class="p">()[</span><span class="n">col_bus</span><span class="p">]</span><span class="o">.</span><span class="n">iloc</span><span class="p">[</span><span class="o">-</span><span class="mi">3</span><span class="p">:])</span>
-</span></span></code></pre></div><table>
-<thead>
-<tr>
-<th style="text-align:right"></th>
-<th style="text-align:right">idx</th>
-<th style="text-align:right">u</th>
-<th style="text-align:right">name</th>
-<th style="text-align:right">Vn</th>
-<th style="text-align:right">vmax</th>
-<th style="text-align:right">vmin</th>
-<th style="text-align:right">v0</th>
-<th style="text-align:right">a0</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:right">uid</td>
-<td style="text-align:right"></td>
-<td style="text-align:right"></td>
-<td style="text-align:right"></td>
-<td style="text-align:right"></td>
-<td style="text-align:right"></td>
-<td style="text-align:right"></td>
-<td style="text-align:right"></td>
-<td style="text-align:right"></td>
-</tr>
-<tr>
-<td style="text-align:right">11</td>
-<td style="text-align:right">12</td>
-<td style="text-align:right">1.0</td>
-<td style="text-align:right">BUS12</td>
-<td style="text-align:right">138.0</td>
-<td style="text-align:right">1.1</td>
-<td style="text-align:right">0.9</td>
-<td style="text-align:right">0.98639</td>
-<td style="text-align:right">-0.128934</td>
-</tr>
-<tr>
-<td style="text-align:right">12</td>
-<td style="text-align:right">13</td>
-<td style="text-align:right">1.0</td>
-<td style="text-align:right">BUS13</td>
-<td style="text-align:right">138.0</td>
-<td style="text-align:right">1.1</td>
-<td style="text-align:right">0.9</td>
-<td style="text-align:right">0.98403</td>
-<td style="text-align:right">-0.133786</td>
-</tr>
-<tr>
-<td style="text-align:right">13</td>
-<td style="text-align:right">14</td>
-<td style="text-align:right">1.0</td>
-<td style="text-align:right">BUS14</td>
-<td style="text-align:right">138.0</td>
-<td style="text-align:right">1.1</td>
-<td style="text-align:right">0.9</td>
-<td style="text-align:right">0.99063</td>
-<td style="text-align:right">-0.166916</td>
-</tr>
-</tbody>
+</span></span></code></pre></div><div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+<pre><code>.dataframe tbody tr th {
+    vertical-align: top;
+}
+
+.dataframe thead th {
+    text-align: right;
+}`&lt;/style&gt;`
+</code></pre>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>idx</th>
+      <th>u</th>
+      <th>name</th>
+      <th>Vn</th>
+      <th>vmax</th>
+      <th>vmin</th>
+      <th>v0</th>
+      <th>a0</th>
+    </tr>
+    <tr>
+      <th>uid</th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>11</th>
+      <td>12</td>
+      <td>1.0</td>
+      <td>BUS12</td>
+      <td>138.0</td>
+      <td>1.1</td>
+      <td>0.9</td>
+      <td>0.98639</td>
+      <td>-0.128934</td>
+    </tr>
+    <tr>
+      <th>12</th>
+      <td>13</td>
+      <td>1.0</td>
+      <td>BUS13</td>
+      <td>138.0</td>
+      <td>1.1</td>
+      <td>0.9</td>
+      <td>0.98403</td>
+      <td>-0.133786</td>
+    </tr>
+    <tr>
+      <th>13</th>
+      <td>14</td>
+      <td>1.0</td>
+      <td>BUS14</td>
+      <td>138.0</td>
+      <td>1.1</td>
+      <td>0.9</td>
+      <td>0.99063</td>
+      <td>-0.166916</td>
+    </tr>
+  </tbody>
 </table>
+</div>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="n">sc3</span><span class="o">.</span><span class="n">Bus</span><span class="o">.</span><span class="n">as_df</span><span class="p">()[</span><span class="n">col_bus</span><span class="p">]</span><span class="o">.</span><span class="n">iloc</span><span class="p">[</span><span class="o">-</span><span class="mi">3</span><span class="p">:])</span>
-</span></span></code></pre></div><table>
-<thead>
-<tr>
-<th style="text-align:right"></th>
-<th style="text-align:right">idx</th>
-<th style="text-align:right">u</th>
-<th style="text-align:right">name</th>
-<th style="text-align:right">Vn</th>
-<th style="text-align:right">vmax</th>
-<th style="text-align:right">vmin</th>
-<th style="text-align:right">v0</th>
-<th style="text-align:right">a0</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:right">uid</td>
-<td style="text-align:right"></td>
-<td style="text-align:right"></td>
-<td style="text-align:right"></td>
-<td style="text-align:right"></td>
-<td style="text-align:right"></td>
-<td style="text-align:right"></td>
-<td style="text-align:right"></td>
-<td style="text-align:right"></td>
-</tr>
-<tr>
-<td style="text-align:right">12</td>
-<td style="text-align:right">13</td>
-<td style="text-align:right">1.0</td>
-<td style="text-align:right">BUS13</td>
-<td style="text-align:right">138.0</td>
-<td style="text-align:right">1.1</td>
-<td style="text-align:right">0.9</td>
-<td style="text-align:right">0.98403</td>
-<td style="text-align:right">-0.133786</td>
-</tr>
-<tr>
-<td style="text-align:right">13</td>
-<td style="text-align:right">14</td>
-<td style="text-align:right">1.0</td>
-<td style="text-align:right">BUS14</td>
-<td style="text-align:right">138.0</td>
-<td style="text-align:right">1.1</td>
-<td style="text-align:right">0.9</td>
-<td style="text-align:right">0.99063</td>
-<td style="text-align:right">-0.166916</td>
-</tr>
-<tr>
-<td style="text-align:right">14</td>
-<td style="text-align:right">15</td>
-<td style="text-align:right">1.0</td>
-<td style="text-align:right">BUS15</td>
-<td style="text-align:right">138.0</td>
-<td style="text-align:right">1.1</td>
-<td style="text-align:right">0.9</td>
-<td style="text-align:right">1.00000</td>
-<td style="text-align:right">0.000000</td>
-</tr>
-</tbody>
+</span></span></code></pre></div><div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+<pre><code>.dataframe tbody tr th {
+    vertical-align: top;
+}
+
+.dataframe thead th {
+    text-align: right;
+}`&lt;/style&gt;`
+</code></pre>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>idx</th>
+      <th>u</th>
+      <th>name</th>
+      <th>Vn</th>
+      <th>vmax</th>
+      <th>vmin</th>
+      <th>v0</th>
+      <th>a0</th>
+    </tr>
+    <tr>
+      <th>uid</th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>12</th>
+      <td>13</td>
+      <td>1.0</td>
+      <td>BUS13</td>
+      <td>138.0</td>
+      <td>1.1</td>
+      <td>0.9</td>
+      <td>0.98403</td>
+      <td>-0.133786</td>
+    </tr>
+    <tr>
+      <th>13</th>
+      <td>14</td>
+      <td>1.0</td>
+      <td>BUS14</td>
+      <td>138.0</td>
+      <td>1.1</td>
+      <td>0.9</td>
+      <td>0.99063</td>
+      <td>-0.166916</td>
+    </tr>
+    <tr>
+      <th>14</th>
+      <td>15</td>
+      <td>1.0</td>
+      <td>BUS15</td>
+      <td>138.0</td>
+      <td>1.1</td>
+      <td>0.9</td>
+      <td>1.00000</td>
+      <td>0.000000</td>
+    </tr>
+  </tbody>
 </table>
+</div>
 <p>Compared to the original Case0, Case3 inserts a new device <code>BUS15</code> with <code>v0</code> and <code>a0</code> being set as default values.</p>
 <p>This might be the reason why the power flow failed.</p>
 <p>We can try to adjust those values to fix the power flow.</p>
@@ -1653,18 +1565,18 @@ System internal structure set up in 0.0362 seconds.
            Numba: Off
    Sparse solver: KLU
  Solution method: NR method
-Power flow initialized in 0.0073 seconds.
+Power flow initialized in 0.0135 seconds.
 0: |F(x)| = 6.171679059
 1: |F(x)| = 0.8778049877
 2: |F(x)| = 0.05516065719
 3: |F(x)| = 0.0001907369157
 4: |F(x)| = 2.026405849e-09
-Converged in 5 iterations in 0.0084 seconds.
+Converged in 5 iterations in 0.0163 seconds.
 
 True
 </code></pre>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="n">sc3i</span> <span class="o">=</span> <span class="n">sc3</span><span class="o">.</span><span class="n">TDS</span><span class="o">.</span><span class="n">init</span><span class="p">()</span>
-</span></span></code></pre></div><pre><code>Initialization for dynamics completed in 0.0554 seconds.
+</span></span></code></pre></div><pre><code>Initialization for dynamics completed in 0.0702 seconds.
 Initialization was successful.
 </code></pre>
 <p>Now the power flow can be solved and the TDS can be initialized successfully.</p>
