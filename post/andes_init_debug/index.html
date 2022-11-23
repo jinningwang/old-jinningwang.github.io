@@ -1721,27 +1721,7 @@ True
 </span></span></code></pre></div><pre><code>Initialization for dynamics completed in 0.0554 seconds.
 Initialization was successful.
 </code></pre>
-<p>Now the power flow can be solved and the TDS can be initialized successfully</p>
-<h2 id="what-is-andes">What is ANDES?</h2>
-<p><a href="https://docs.andes.app/en/stable/" target="_blank" rel="noopener">ANDES</a> is an open-source Python library for power system modeling and simulation developed by <a href="https://cui.eecps.com/" target="_blank" rel="noopener">Dr. Hantao Cui</a>. ANDES allows users to develop new models by their own will, which can be easily done by translating block diagrams into models.</p>
-<p>The philosophy of ANDES is introduced in:</p>
-<blockquote>
-<p>H. Cui, F. Li and K. Tomsovic, &ldquo;Hybrid Symbolic-Numeric Framework for Power System Modeling and Analysis,&rdquo; in  <em>IEEE Transactions on Power Systems</em> , vol. 36, no. 2, pp. 1373-1384, March 2021, doi: 10.1109/TPWRS.2020.3017019.</p>
-</blockquote>
-<p>ANDES is currently under <em><strong>ACTIVE</strong></em> development and maintenance by Dr. Hantao Cui.</p>
-<h2 id="how-to-develop-new-model-with-andes">How to develop new model with ANDES?</h2>
-<p>Two examples for development new models are available at <a href="https://docs.andes.app/en/stable/modeling/index.html" target="_blank" rel="noopener">Development</a>.</p>
-<p>Before developing a new model, it is recommended to go through the <a href="https://docs.andes.app/en/stable/modelref.html" target="_blank" rel="noopener">Model reference</a> and check out the existing groups and their functions. Then the following steps can be followed:</p>
-<ol>
-<li>Make sure you have installed ANDES in development mode.</li>
-<li>Check existing models that are similar to your model, and then draft the diagram of your model. Some standard model references are available on ESIG, Neplan, PowerWorld, and PSSE Model Library.</li>
-<li>When implementing the model, similar function pieces from existing models can help to reduce manual efforts.</li>
-<li>Build your model and finalize it.</li>
-<li>Re-generate the pycode by <code>andes prep</code>. Sometimes there occur multi-functionalities, where you may need <code>andes prep -f</code> to re-generate all model codes.</li>
-<li>Create a test case file that includes your model, where the IEEE 14-bus system and Kundur system can be used.</li>
-<li>Load the test case, and run the <code>ss.TDS.init()</code> to see if the initialization is successful. If initialization runs into an error, you may need to tune the model initialization equations (<code>v_str</code> defined in the model). Remember to run <code>andes prep</code> and restart the kernel (for Jupyter Notebook users) every time you make a change to the model code.</li>
-<li>After finishing the model development, it is encouraged to check the code style (can be done by package flake8) and open a PR to contribute it into the <a href="https://github.com/cuihantao/andes" target="_blank" rel="noopener">ADNES repo</a>.</li>
-</ol>
+<p>Now the power flow can be solved and the TDS can be initialized successfully.</p>
 
     </div>
 
