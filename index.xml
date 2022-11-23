@@ -38,7 +38,7 @@
       <pubDate>Wed, 23 Nov 2022 00:00:00 +0000</pubDate>
       <guid>https://example.com/post/andes_init_debug/</guid>
       <description>&lt;p&gt;When revising ANDES case file, the user will run into power flow divergence and TDS initialization error.&lt;/p&gt;
-&lt;p&gt;As discussed in &lt;a href=&#34;https://github.com/cuihantao/andes/discussions/386&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ANDES Discussion #386&lt;/a&gt;, in this blog, we will show how to recognize and fix these errors.&lt;code&gt;&amp;lt;!--&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;As discussed in &lt;a href=&#34;https://github.com/cuihantao/andes/discussions/386&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ANDES Discussion #386&lt;/a&gt;, in this blog, we will show how to recognize and fix these errors.&lt;/p&gt;
 &lt;h1 id=&#34;andes-case-file-tunning&#34;&gt;ANDES Case File Tunning&lt;/h1&gt;
 &lt;p&gt;-- Response to &lt;a href=&#34;https://github.com/cuihantao/andes/discussions/386&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ANDES Discussion #386&lt;/a&gt;.&lt;/p&gt;
 &lt;h2 id=&#34;packages-version&#34;&gt;Packages version&lt;/h2&gt;
