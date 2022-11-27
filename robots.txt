@@ -1,3 +1,3 @@
 User-agent: *
 
-Sitemap: https://jinningwang.github.io/sitemap.xml
+Sitemap: https://jinningwang.github.io/sitemap.xml#about

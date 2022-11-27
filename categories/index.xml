@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories | Jinning Wang</title>
-    <link>https://jinningwang.github.io/categories/</link>
-      <atom:link href="https://jinningwang.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://jinningwang.github.io/#about/categories/</link>
+      <atom:link href="https://jinningwang.github.io/#about/categories/index.xml" rel="self" type="application/rss+xml" />
     <description>Categories</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 23 Nov 2022 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://jinningwang.github.io/media/icon_hu34517862f4a1ff29f087ce92eb66ea20_25692_512x512_fill_lanczos_center_3.png</url>
+      <url>https://jinningwang.github.io/#about/media/icon_hu34517862f4a1ff29f087ce92eb66ea20_25692_512x512_fill_lanczos_center_3.png</url>
       <title>Categories</title>
-      <link>https://jinningwang.github.io/categories/</link>
+      <link>https://jinningwang.github.io/#about/categories/</link>
     </image>
     
   </channel>

@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Jinning Wang</title>
-    <link>https://jinningwang.github.io/</link>
-      <atom:link href="https://jinningwang.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://jinningwang.github.io/#about/</link>
+      <atom:link href="https://jinningwang.github.io/#about/index.xml" rel="self" type="application/rss+xml" />
     <description>Jinning Wang</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 01 Jun 2030 13:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://jinningwang.github.io/media/icon_hu34517862f4a1ff29f087ce92eb66ea20_25692_512x512_fill_lanczos_center_3.png</url>
+      <url>https://jinningwang.github.io/#about/media/icon_hu34517862f4a1ff29f087ce92eb66ea20_25692_512x512_fill_lanczos_center_3.png</url>
       <title>Jinning Wang</title>
-      <link>https://jinningwang.github.io/</link>
+      <link>https://jinningwang.github.io/#about/</link>
     </image>
     
     <item>
       <title>Example Talk</title>
-      <link>https://jinningwang.github.io/talk/example-talk/</link>
+      <link>https://jinningwang.github.io/#about/talk/example-talk/</link>
       <pubDate>Sat, 01 Jun 2030 13:00:00 +0000</pubDate>
-      <guid>https://jinningwang.github.io/talk/example-talk/</guid>
+      <guid>https://jinningwang.github.io/#about/talk/example-talk/</guid>
       <description>&lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Click on the &lt;strong&gt;Slides&lt;/strong&gt; button above to view the built-in slides feature.
@@ -34,9 +34,9 @@
     
     <item>
       <title>Fix Power Flow and TDS Initialization Error in ANDES</title>
-      <link>https://jinningwang.github.io/post/andes_init_debug/</link>
+      <link>https://jinningwang.github.io/#about/post/andes_init_debug/</link>
       <pubDate>Wed, 23 Nov 2022 00:00:00 +0000</pubDate>
-      <guid>https://jinningwang.github.io/post/andes_init_debug/</guid>
+      <guid>https://jinningwang.github.io/#about/post/andes_init_debug/</guid>
       <description>&lt;p&gt;As dsicussed in &lt;a href=&#34;https://github.com/cuihantao/andes/discussions/386&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ANDES Discussions #386&lt;/a&gt;, the user may run into &lt;em&gt;&lt;strong&gt;power flow divergence&lt;/strong&gt;&lt;/em&gt; or &lt;em&gt;&lt;strong&gt;TDS initialization error&lt;/strong&gt;&lt;/em&gt; when revising cases file from given cases. In this blog, we will discuss how to fix these errors. The case files and source code can be found at &lt;a href=&#34;https://github.com/jinningwang/jinningwang/tree/main/blogs/andes_init_debug&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;andes_init_debug&lt;/a&gt;.&lt;/p&gt;
 &lt;h2 id=&#34;power-flow-divergence&#34;&gt;Power flow divergence&lt;/h2&gt;
 &lt;p&gt;AC power flow resutls are used as the initialization points of TDS. In ANDES, devices &lt;code&gt;Bus&lt;/code&gt;, &lt;code&gt;PQ&lt;/code&gt;, &lt;code&gt;PV&lt;/code&gt;, &lt;code&gt;Slack&lt;/code&gt;, &lt;code&gt;Shunt&lt;/code&gt;, &lt;code&gt;Line&lt;/code&gt; are used to solve AC power flow. Usually, the user may revise the system topology, such as adding new devices (&lt;code&gt;Bus&lt;/code&gt;) or changing load (&lt;code&gt;PQ&lt;/code&gt;). Belows are some possible reasons for failed power flow:&lt;/p&gt;
@@ -56,9 +56,9 @@
     
     <item>
       <title>Electricity consumption variation versus economic structure during COVID-19 on metropolitan statistical areas in the US</title>
-      <link>https://jinningwang.github.io/publication/covid/</link>
+      <link>https://jinningwang.github.io/#about/publication/covid/</link>
       <pubDate>Sat, 01 Oct 2022 00:00:00 +0000</pubDate>
-      <guid>https://jinningwang.github.io/publication/covid/</guid>
+      <guid>https://jinningwang.github.io/#about/publication/covid/</guid>
       <description>&lt;h2 id=&#34;results&#34;&gt;Results&lt;/h2&gt;
 &lt;p&gt;
 
@@ -209,41 +209,41 @@
     
     <item>
       <title>Transmission-Distribution Dynamic Co-simulation of Electric Vehicles Providing Grid Frequency Response</title>
-      <link>https://jinningwang.github.io/publication/tdev/</link>
+      <link>https://jinningwang.github.io/#about/publication/tdev/</link>
       <pubDate>Sat, 01 Oct 2022 00:00:00 +0000</pubDate>
-      <guid>https://jinningwang.github.io/publication/tdev/</guid>
+      <guid>https://jinningwang.github.io/#about/publication/tdev/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Virtual Inertia Scheduling for Power Systems with High Penetration of Inverter-based Resources</title>
-      <link>https://jinningwang.github.io/publication/vis/</link>
+      <link>https://jinningwang.github.io/#about/publication/vis/</link>
       <pubDate>Wed, 07 Sep 2022 00:00:00 +0000</pubDate>
-      <guid>https://jinningwang.github.io/publication/vis/</guid>
+      <guid>https://jinningwang.github.io/#about/publication/vis/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Disturbance Propagation in Power Grids With High Converter Penetration</title>
-      <link>https://jinningwang.github.io/publication/emw/</link>
+      <link>https://jinningwang.github.io/#about/publication/emw/</link>
       <pubDate>Sun, 01 May 2022 00:00:00 +0000</pubDate>
-      <guid>https://jinningwang.github.io/publication/emw/</guid>
+      <guid>https://jinningwang.github.io/#about/publication/emw/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Profit-Oriented BESS Siting and Sizing in Deregulated Distribution Systems</title>
-      <link>https://jinningwang.github.io/publication/bess/</link>
+      <link>https://jinningwang.github.io/#about/publication/bess/</link>
       <pubDate>Tue, 01 Feb 2022 00:00:00 +0000</pubDate>
-      <guid>https://jinningwang.github.io/publication/bess/</guid>
+      <guid>https://jinningwang.github.io/#about/publication/bess/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Novelty in Science</title>
-      <link>https://jinningwang.github.io/post/novelty/</link>
+      <link>https://jinningwang.github.io/#about/post/novelty/</link>
       <pubDate>Sun, 30 Jan 2022 00:00:00 +0000</pubDate>
-      <guid>https://jinningwang.github.io/post/novelty/</guid>
+      <guid>https://jinningwang.github.io/#about/post/novelty/</guid>
       <description>&lt;p&gt;I see reviewers regularly mistake complexity, difficulty, and technicality for novelty. In science reviewing, novelty seems to imply these things. We might be better served by removing the word “novelty” from the review instructions and replacing it with &lt;em&gt;beauty&lt;/em&gt;.&lt;/p&gt;
 &lt;p&gt;Beauty removes the notions of “technical” and “complex” and gets more to the heart of scientific novelty. A painting can be beautiful even if it is simple and the technical complexity is low. So can a paper. A little squiggle of paint by Picasso can be as beautiful as an intricate painting by Rembrandt.&lt;/p&gt;
 &lt;p&gt;Keeping beauty in mind, let’s look at some common reviewer misunderstandings about novelty.&lt;/p&gt;
@@ -284,9 +284,9 @@
     
     <item>
       <title>Model Development Workflow in ADNES</title>
-      <link>https://jinningwang.github.io/post/andes_dev/</link>
+      <link>https://jinningwang.github.io/#about/post/andes_dev/</link>
       <pubDate>Wed, 08 Dec 2021 00:00:00 +0000</pubDate>
-      <guid>https://jinningwang.github.io/post/andes_dev/</guid>
+      <guid>https://jinningwang.github.io/#about/post/andes_dev/</guid>
       <description>&lt;p&gt;Based on my personal development experience, I summarized this guide as a clue for those who want to try ANDES and develop models.&lt;/p&gt;
 &lt;h2 id=&#34;what-is-andes&#34;&gt;What is ANDES?&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&#34;https://docs.andes.app/en/stable/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ANDES&lt;/a&gt; is an open-source Python library for power system modeling and simulation developed by &lt;a href=&#34;https://cui.eecps.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Dr. Hantao Cui&lt;/a&gt;. ANDES allows users to develop new models by their own will, which can be easily done by translating block diagrams into models.&lt;/p&gt;
@@ -313,9 +313,9 @@
     
     <item>
       <title>Cyber-Physical Dynamic System (CPDS) Modeling for Frequency Regulation and AGC Services of Distributed Energy Resources</title>
-      <link>https://jinningwang.github.io/project/cpds/</link>
+      <link>https://jinningwang.github.io/#about/project/cpds/</link>
       <pubDate>Wed, 01 Sep 2021 00:00:00 +0000</pubDate>
-      <guid>https://jinningwang.github.io/project/cpds/</guid>
+      <guid>https://jinningwang.github.io/#about/project/cpds/</guid>
       <description>&lt;p&gt;The substantial integration of renewable energy brings significant challenges to balance the system in real time because of the variability and intermittency of renewable power. For the reliable system operation, the frequency regulation service is used to stabilize the system frequency through automatically balancing the system generation and load.&lt;/p&gt;
 &lt;p&gt;On one hand, with the substantially increasing deployment of renewable energy in electricity system, the requirement of frequency regulation (FR) services increases significantly. On the other hand, the current main resource of FR services, the controllable conventional generation, is continuously decreasing in the system generation mix. This means that in the future high renewable penetration power system, additional and alternative reliable FR services providers such as distributed energy storage (DES) resources should be explored.&lt;/p&gt;
 &lt;p&gt;Although the capability of utility-scale energy storage to provide FR services has been demonstrated, the integrated control and dynamic modeling of distributed energy resource (DER) providing frequency regulation grid services has been rarely explored. There are several challenges to adopt DERs to provide reliable grid services as illustrated in FERC 755.&lt;/p&gt;
@@ -328,18 +328,18 @@
     
     <item>
       <title>Large-scale Testbed</title>
-      <link>https://jinningwang.github.io/project/ltb/</link>
+      <link>https://jinningwang.github.io/#about/project/ltb/</link>
       <pubDate>Mon, 01 Mar 2021 00:00:00 +0000</pubDate>
-      <guid>https://jinningwang.github.io/project/ltb/</guid>
+      <guid>https://jinningwang.github.io/#about/project/ltb/</guid>
       <description>&lt;p&gt;The electric power grid is undergoing unprecedented modernization toward higher reliability, higher efficiency, and lower cost through the integration of renewable energy, wide-area monitoring, and advanced control technology. This integration is making the transmission grid overwhelmingly complex to understand and model to apply new control or actuation technologies. This calls for a fast-prototyping platform for research and testing under the new transmission technology paradigm. Such a platform should be highly integrated, closed loop, and capable of mimicking a real power grid for testing new controls or algorithms. However, traditional software simulation packages usually perform specific tasks such as dynamic simulation or state estimation but lack the capability of providing an integrated closed-loop platform.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Electricity Consumption Variation versus Economic Structure during COVID-19</title>
-      <link>https://jinningwang.github.io/project/covid/</link>
+      <link>https://jinningwang.github.io/#about/project/covid/</link>
       <pubDate>Sat, 01 Aug 2020 00:00:00 +0000</pubDate>
-      <guid>https://jinningwang.github.io/project/covid/</guid>
+      <guid>https://jinningwang.github.io/#about/project/covid/</guid>
       <description>&lt;p&gt;The outbreak of novel coronavirus disease (COVID-19) has resulted in changes in productivity and daily life patterns, and as a result electricity consumption (EC) has also shifted. In this work, we construct estimates of EC changes at the metropolitan level across the continental U.S., including total EC and residential EC during the initial two months of the pandemic. The total and residential data on the state level were broken down into the county level, and then metropolitan level EC estimates were aggregated from the counties included in each metropolitan statistical area (MSA).&lt;/p&gt;
 &lt;p&gt;This work shows that the reduction in total EC is related to the shares of certain industries in an MSA, whereas regardless of the incidence level or economic structure, the residential sector shows a trend of increasing EC across the continental U.S.. Since the MSAs account for 86% of the total population and 87% of the total EC of the continental U.S, the analytical result in this paper can provide important guidelines for future social-economic crises.&lt;/p&gt;
 </description>
@@ -347,9 +347,9 @@
     
     <item>
       <title>Slides</title>
-      <link>https://jinningwang.github.io/slides/example/</link>
+      <link>https://jinningwang.github.io/#about/slides/example/</link>
       <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
-      <guid>https://jinningwang.github.io/slides/example/</guid>
+      <guid>https://jinningwang.github.io/#about/slides/example/</guid>
       <description>&lt;h1 id=&#34;create-slides-in-markdown-with-wowchemy&#34;&gt;Create slides in Markdown with Wowchemy&lt;/h1&gt;
 &lt;p&gt;&lt;a href=&#34;https://wowchemy.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Wowchemy&lt;/a&gt; | &lt;a href=&#34;https://wowchemy.com/docs/content/slides/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Documentation&lt;/a&gt;&lt;/p&gt;
 &lt;hr&gt;
@@ -472,9 +472,9 @@ $$&lt;/p&gt;
     
     <item>
       <title>Harmonic Coupling Characteristics Analysis of Microgrid AC/DC Converter Based on HSS Modelling</title>
-      <link>https://jinningwang.github.io/project/hss/</link>
+      <link>https://jinningwang.github.io/#about/project/hss/</link>
       <pubDate>Sun, 01 Oct 2017 00:00:00 +0000</pubDate>
-      <guid>https://jinningwang.github.io/project/hss/</guid>
+      <guid>https://jinningwang.github.io/#about/project/hss/</guid>
       <description>&lt;p&gt;A model of the AC/DC converter based on the harmonic state space (HSS) theory is developed, and the AC/DC harmonic coupling characteristics of the converter have been analyzed in depth.&lt;/p&gt;
 &lt;p&gt;Firstly, through the mathematical derivation, the three-phase AC/DC converter is modeled based on the HSS theory. The HSS model includes each harmonic on the AC and DC sides, which reflects the relationship between the harmonic variables of each frequency.&lt;/p&gt;
 &lt;p&gt;Secondly, the harmonic transfer function of the converter is deduced by the model, and the diagram of harmonic coupling impedance is established to analyze the AC/DC harmonic coupling characteristics. The model is built according to the voltage source three-phase AC/DC converter which is commonly used in microgrids. The full range of coupling characteristics between AC and DC side is illustrated, and can be used to explore the harmonic characteristics at all frequencies, and can also be applied in harmonic analysis of converter with parallel and cascaded structures.&lt;/p&gt;
@@ -485,9 +485,9 @@ $$&lt;/p&gt;
     
     <item>
       <title></title>
-      <link>https://jinningwang.github.io/admin/config.yml</link>
+      <link>https://jinningwang.github.io/#about/admin/config.yml</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://jinningwang.github.io/admin/config.yml</guid>
+      <guid>https://jinningwang.github.io/#about/admin/config.yml</guid>
       <description></description>
     </item>
     

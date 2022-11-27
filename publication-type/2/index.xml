@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>2 | Jinning Wang</title>
-    <link>https://jinningwang.github.io/publication-type/2/</link>
-      <atom:link href="https://jinningwang.github.io/publication-type/2/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://jinningwang.github.io/#about/publication-type/2/</link>
+      <atom:link href="https://jinningwang.github.io/#about/publication-type/2/index.xml" rel="self" type="application/rss+xml" />
     <description>2</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 01 Oct 2022 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://jinningwang.github.io/media/icon_hu34517862f4a1ff29f087ce92eb66ea20_25692_512x512_fill_lanczos_center_3.png</url>
+      <url>https://jinningwang.github.io/#about/media/icon_hu34517862f4a1ff29f087ce92eb66ea20_25692_512x512_fill_lanczos_center_3.png</url>
       <title>2</title>
-      <link>https://jinningwang.github.io/publication-type/2/</link>
+      <link>https://jinningwang.github.io/#about/publication-type/2/</link>
     </image>
     
     <item>
       <title>Electricity consumption variation versus economic structure during COVID-19 on metropolitan statistical areas in the US</title>
-      <link>https://jinningwang.github.io/publication/covid/</link>
+      <link>https://jinningwang.github.io/#about/publication/covid/</link>
       <pubDate>Sat, 01 Oct 2022 00:00:00 +0000</pubDate>
-      <guid>https://jinningwang.github.io/publication/covid/</guid>
+      <guid>https://jinningwang.github.io/#about/publication/covid/</guid>
       <description>&lt;h2 id=&#34;results&#34;&gt;Results&lt;/h2&gt;
 &lt;p&gt;
 
@@ -167,17 +167,17 @@
     
     <item>
       <title>Disturbance Propagation in Power Grids With High Converter Penetration</title>
-      <link>https://jinningwang.github.io/publication/emw/</link>
+      <link>https://jinningwang.github.io/#about/publication/emw/</link>
       <pubDate>Sun, 01 May 2022 00:00:00 +0000</pubDate>
-      <guid>https://jinningwang.github.io/publication/emw/</guid>
+      <guid>https://jinningwang.github.io/#about/publication/emw/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Profit-Oriented BESS Siting and Sizing in Deregulated Distribution Systems</title>
-      <link>https://jinningwang.github.io/publication/bess/</link>
+      <link>https://jinningwang.github.io/#about/publication/bess/</link>
       <pubDate>Tue, 01 Feb 2022 00:00:00 +0000</pubDate>
-      <guid>https://jinningwang.github.io/publication/bess/</guid>
+      <guid>https://jinningwang.github.io/#about/publication/bess/</guid>
       <description></description>
     </item>
     

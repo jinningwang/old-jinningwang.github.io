@@ -2,45 +2,45 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Renewable Integration | Jinning Wang</title>
-    <link>https://jinningwang.github.io/tag/renewable-integration/</link>
-      <atom:link href="https://jinningwang.github.io/tag/renewable-integration/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://jinningwang.github.io/#about/tag/renewable-integration/</link>
+      <atom:link href="https://jinningwang.github.io/#about/tag/renewable-integration/index.xml" rel="self" type="application/rss+xml" />
     <description>Renewable Integration</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 01 Oct 2022 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://jinningwang.github.io/media/icon_hu34517862f4a1ff29f087ce92eb66ea20_25692_512x512_fill_lanczos_center_3.png</url>
+      <url>https://jinningwang.github.io/#about/media/icon_hu34517862f4a1ff29f087ce92eb66ea20_25692_512x512_fill_lanczos_center_3.png</url>
       <title>Renewable Integration</title>
-      <link>https://jinningwang.github.io/tag/renewable-integration/</link>
+      <link>https://jinningwang.github.io/#about/tag/renewable-integration/</link>
     </image>
     
     <item>
       <title>Transmission-Distribution Dynamic Co-simulation of Electric Vehicles Providing Grid Frequency Response</title>
-      <link>https://jinningwang.github.io/publication/tdev/</link>
+      <link>https://jinningwang.github.io/#about/publication/tdev/</link>
       <pubDate>Sat, 01 Oct 2022 00:00:00 +0000</pubDate>
-      <guid>https://jinningwang.github.io/publication/tdev/</guid>
+      <guid>https://jinningwang.github.io/#about/publication/tdev/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Virtual Inertia Scheduling for Power Systems with High Penetration of Inverter-based Resources</title>
-      <link>https://jinningwang.github.io/publication/vis/</link>
+      <link>https://jinningwang.github.io/#about/publication/vis/</link>
       <pubDate>Wed, 07 Sep 2022 00:00:00 +0000</pubDate>
-      <guid>https://jinningwang.github.io/publication/vis/</guid>
+      <guid>https://jinningwang.github.io/#about/publication/vis/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Disturbance Propagation in Power Grids With High Converter Penetration</title>
-      <link>https://jinningwang.github.io/publication/emw/</link>
+      <link>https://jinningwang.github.io/#about/publication/emw/</link>
       <pubDate>Sun, 01 May 2022 00:00:00 +0000</pubDate>
-      <guid>https://jinningwang.github.io/publication/emw/</guid>
+      <guid>https://jinningwang.github.io/#about/publication/emw/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Cyber-Physical Dynamic System (CPDS) Modeling for Frequency Regulation and AGC Services of Distributed Energy Resources</title>
-      <link>https://jinningwang.github.io/project/cpds/</link>
+      <link>https://jinningwang.github.io/#about/project/cpds/</link>
       <pubDate>Wed, 01 Sep 2021 00:00:00 +0000</pubDate>
-      <guid>https://jinningwang.github.io/project/cpds/</guid>
+      <guid>https://jinningwang.github.io/#about/project/cpds/</guid>
       <description>&lt;p&gt;The substantial integration of renewable energy brings significant challenges to balance the system in real time because of the variability and intermittency of renewable power. For the reliable system operation, the frequency regulation service is used to stabilize the system frequency through automatically balancing the system generation and load.&lt;/p&gt;
 &lt;p&gt;On one hand, with the substantially increasing deployment of renewable energy in electricity system, the requirement of frequency regulation (FR) services increases significantly. On the other hand, the current main resource of FR services, the controllable conventional generation, is continuously decreasing in the system generation mix. This means that in the future high renewable penetration power system, additional and alternative reliable FR services providers such as distributed energy storage (DES) resources should be explored.&lt;/p&gt;
 &lt;p&gt;Although the capability of utility-scale energy storage to provide FR services has been demonstrated, the integrated control and dynamic modeling of distributed energy resource (DER) providing frequency regulation grid services has been rarely explored. There are several challenges to adopt DERs to provide reliable grid services as illustrated in FERC 755.&lt;/p&gt;
