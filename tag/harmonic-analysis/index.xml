@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Harmonic Analysis | Jinning Wang</title>
-    <link>https://example.com/tag/harmonic-analysis/</link>
-      <atom:link href="https://example.com/tag/harmonic-analysis/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://jinningwang.github.io/#about/tag/harmonic-analysis/</link>
+      <atom:link href="https://jinningwang.github.io/#about/tag/harmonic-analysis/index.xml" rel="self" type="application/rss+xml" />
     <description>Harmonic Analysis</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 01 Oct 2017 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://example.com/media/icon_hu34517862f4a1ff29f087ce92eb66ea20_25692_512x512_fill_lanczos_center_3.png</url>
+      <url>https://jinningwang.github.io/#about/media/icon_hu34517862f4a1ff29f087ce92eb66ea20_25692_512x512_fill_lanczos_center_3.png</url>
       <title>Harmonic Analysis</title>
-      <link>https://example.com/tag/harmonic-analysis/</link>
+      <link>https://jinningwang.github.io/#about/tag/harmonic-analysis/</link>
     </image>
     
     <item>
       <title>Harmonic Coupling Characteristics Analysis of Microgrid AC/DC Converter Based on HSS Modelling</title>
-      <link>https://example.com/project/hss/</link>
+      <link>https://jinningwang.github.io/#about/project/hss/</link>
       <pubDate>Sun, 01 Oct 2017 00:00:00 +0000</pubDate>
-      <guid>https://example.com/project/hss/</guid>
+      <guid>https://jinningwang.github.io/#about/project/hss/</guid>
       <description>&lt;p&gt;A model of the AC/DC converter based on the harmonic state space (HSS) theory is developed, and the AC/DC harmonic coupling characteristics of the converter have been analyzed in depth.&lt;/p&gt;
 &lt;p&gt;Firstly, through the mathematical derivation, the three-phase AC/DC converter is modeled based on the HSS theory. The HSS model includes each harmonic on the AC and DC sides, which reflects the relationship between the harmonic variables of each frequency.&lt;/p&gt;
 &lt;p&gt;Secondly, the harmonic transfer function of the converter is deduced by the model, and the diagram of harmonic coupling impedance is established to analyze the AC/DC harmonic coupling characteristics. The model is built according to the voltage source three-phase AC/DC converter which is commonly used in microgrids. The full range of coupling characteristics between AC and DC side is illustrated, and can be used to explore the harmonic characteristics at all frequencies, and can also be applied in harmonic analysis of converter with parallel and cascaded structures.&lt;/p&gt;

@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Projects | Jinning Wang</title>
-    <link>https://example.com/project/</link>
-      <atom:link href="https://example.com/project/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://jinningwang.github.io/#about/project/</link>
+      <atom:link href="https://jinningwang.github.io/#about/project/index.xml" rel="self" type="application/rss+xml" />
     <description>Projects</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 01 Sep 2021 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://example.com/media/icon_hu34517862f4a1ff29f087ce92eb66ea20_25692_512x512_fill_lanczos_center_3.png</url>
+      <url>https://jinningwang.github.io/#about/media/icon_hu34517862f4a1ff29f087ce92eb66ea20_25692_512x512_fill_lanczos_center_3.png</url>
       <title>Projects</title>
-      <link>https://example.com/project/</link>
+      <link>https://jinningwang.github.io/#about/project/</link>
     </image>
     
     <item>
       <title>Cyber-Physical Dynamic System (CPDS) Modeling for Frequency Regulation and AGC Services of Distributed Energy Resources</title>
-      <link>https://example.com/project/cpds/</link>
+      <link>https://jinningwang.github.io/#about/project/cpds/</link>
       <pubDate>Wed, 01 Sep 2021 00:00:00 +0000</pubDate>
-      <guid>https://example.com/project/cpds/</guid>
+      <guid>https://jinningwang.github.io/#about/project/cpds/</guid>
       <description>&lt;p&gt;The substantial integration of renewable energy brings significant challenges to balance the system in real time because of the variability and intermittency of renewable power. For the reliable system operation, the frequency regulation service is used to stabilize the system frequency through automatically balancing the system generation and load.&lt;/p&gt;
 &lt;p&gt;On one hand, with the substantially increasing deployment of renewable energy in electricity system, the requirement of frequency regulation (FR) services increases significantly. On the other hand, the current main resource of FR services, the controllable conventional generation, is continuously decreasing in the system generation mix. This means that in the future high renewable penetration power system, additional and alternative reliable FR services providers such as distributed energy storage (DES) resources should be explored.&lt;/p&gt;
 &lt;p&gt;Although the capability of utility-scale energy storage to provide FR services has been demonstrated, the integrated control and dynamic modeling of distributed energy resource (DER) providing frequency regulation grid services has been rarely explored. There are several challenges to adopt DERs to provide reliable grid services as illustrated in FERC 755.&lt;/p&gt;
@@ -29,18 +29,18 @@
     
     <item>
       <title>Large-scale Testbed</title>
-      <link>https://example.com/project/ltb/</link>
+      <link>https://jinningwang.github.io/#about/project/ltb/</link>
       <pubDate>Mon, 01 Mar 2021 00:00:00 +0000</pubDate>
-      <guid>https://example.com/project/ltb/</guid>
+      <guid>https://jinningwang.github.io/#about/project/ltb/</guid>
       <description>&lt;p&gt;The electric power grid is undergoing unprecedented modernization toward higher reliability, higher efficiency, and lower cost through the integration of renewable energy, wide-area monitoring, and advanced control technology. This integration is making the transmission grid overwhelmingly complex to understand and model to apply new control or actuation technologies. This calls for a fast-prototyping platform for research and testing under the new transmission technology paradigm. Such a platform should be highly integrated, closed loop, and capable of mimicking a real power grid for testing new controls or algorithms. However, traditional software simulation packages usually perform specific tasks such as dynamic simulation or state estimation but lack the capability of providing an integrated closed-loop platform.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Electricity Consumption Variation versus Economic Structure during COVID-19</title>
-      <link>https://example.com/project/covid/</link>
+      <link>https://jinningwang.github.io/#about/project/covid/</link>
       <pubDate>Sat, 01 Aug 2020 00:00:00 +0000</pubDate>
-      <guid>https://example.com/project/covid/</guid>
+      <guid>https://jinningwang.github.io/#about/project/covid/</guid>
       <description>&lt;p&gt;The outbreak of novel coronavirus disease (COVID-19) has resulted in changes in productivity and daily life patterns, and as a result electricity consumption (EC) has also shifted. In this work, we construct estimates of EC changes at the metropolitan level across the continental U.S., including total EC and residential EC during the initial two months of the pandemic. The total and residential data on the state level were broken down into the county level, and then metropolitan level EC estimates were aggregated from the counties included in each metropolitan statistical area (MSA).&lt;/p&gt;
 &lt;p&gt;This work shows that the reduction in total EC is related to the shares of certain industries in an MSA, whereas regardless of the incidence level or economic structure, the residential sector shows a trend of increasing EC across the continental U.S.. Since the MSAs account for 86% of the total population and 87% of the total EC of the continental U.S, the analytical result in this paper can provide important guidelines for future social-economic crises.&lt;/p&gt;
 </description>
@@ -48,9 +48,9 @@
     
     <item>
       <title>Harmonic Coupling Characteristics Analysis of Microgrid AC/DC Converter Based on HSS Modelling</title>
-      <link>https://example.com/project/hss/</link>
+      <link>https://jinningwang.github.io/#about/project/hss/</link>
       <pubDate>Sun, 01 Oct 2017 00:00:00 +0000</pubDate>
-      <guid>https://example.com/project/hss/</guid>
+      <guid>https://jinningwang.github.io/#about/project/hss/</guid>
       <description>&lt;p&gt;A model of the AC/DC converter based on the harmonic state space (HSS) theory is developed, and the AC/DC harmonic coupling characteristics of the converter have been analyzed in depth.&lt;/p&gt;
 &lt;p&gt;Firstly, through the mathematical derivation, the three-phase AC/DC converter is modeled based on the HSS theory. The HSS model includes each harmonic on the AC and DC sides, which reflects the relationship between the harmonic variables of each frequency.&lt;/p&gt;
 &lt;p&gt;Secondly, the harmonic transfer function of the converter is deduced by the model, and the diagram of harmonic coupling impedance is established to analyze the AC/DC harmonic coupling characteristics. The model is built according to the voltage source three-phase AC/DC converter which is commonly used in microgrids. The full range of coupling characteristics between AC and DC side is illustrated, and can be used to explore the harmonic characteristics at all frequencies, and can also be applied in harmonic analysis of converter with parallel and cascaded structures.&lt;/p&gt;
