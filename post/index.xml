@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts | Jinning Wang</title>
-    <link>https://jinningwang.github.io/#about/post/</link>
-      <atom:link href="https://jinningwang.github.io/#about/post/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://jinningwang.github.io/post/</link>
+      <atom:link href="https://jinningwang.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Posts</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 23 Nov 2022 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://jinningwang.github.io/#about/media/icon_hu34517862f4a1ff29f087ce92eb66ea20_25692_512x512_fill_lanczos_center_3.png</url>
+      <url>https://jinningwang.github.io/media/icon_hu34517862f4a1ff29f087ce92eb66ea20_25692_512x512_fill_lanczos_center_3.png</url>
       <title>Posts</title>
-      <link>https://jinningwang.github.io/#about/post/</link>
+      <link>https://jinningwang.github.io/post/</link>
     </image>
     
     <item>
       <title>Fix Power Flow and TDS Initialization Error in ANDES</title>
-      <link>https://jinningwang.github.io/#about/post/andes_init_debug/</link>
+      <link>https://jinningwang.github.io/post/andes_init_debug/</link>
       <pubDate>Wed, 23 Nov 2022 00:00:00 +0000</pubDate>
-      <guid>https://jinningwang.github.io/#about/post/andes_init_debug/</guid>
+      <guid>https://jinningwang.github.io/post/andes_init_debug/</guid>
       <description>&lt;p&gt;As dsicussed in &lt;a href=&#34;https://github.com/cuihantao/andes/discussions/386&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ANDES Discussions #386&lt;/a&gt;, the user may run into &lt;em&gt;&lt;strong&gt;power flow divergence&lt;/strong&gt;&lt;/em&gt; or &lt;em&gt;&lt;strong&gt;TDS initialization error&lt;/strong&gt;&lt;/em&gt; when revising cases file from given cases. In this blog, we will discuss how to fix these errors. The case files and source code can be found at &lt;a href=&#34;https://github.com/jinningwang/jinningwang/tree/main/blogs/andes_init_debug&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;andes_init_debug&lt;/a&gt;.&lt;/p&gt;
 &lt;h2 id=&#34;power-flow-divergence&#34;&gt;Power flow divergence&lt;/h2&gt;
 &lt;p&gt;AC power flow resutls are used as the initialization points of TDS. In ANDES, devices &lt;code&gt;Bus&lt;/code&gt;, &lt;code&gt;PQ&lt;/code&gt;, &lt;code&gt;PV&lt;/code&gt;, &lt;code&gt;Slack&lt;/code&gt;, &lt;code&gt;Shunt&lt;/code&gt;, &lt;code&gt;Line&lt;/code&gt; are used to solve AC power flow. Usually, the user may revise the system topology, such as adding new devices (&lt;code&gt;Bus&lt;/code&gt;) or changing load (&lt;code&gt;PQ&lt;/code&gt;). Belows are some possible reasons for failed power flow:&lt;/p&gt;
@@ -36,9 +36,9 @@
     
     <item>
       <title>Novelty in Science</title>
-      <link>https://jinningwang.github.io/#about/post/novelty/</link>
+      <link>https://jinningwang.github.io/post/novelty/</link>
       <pubDate>Sun, 30 Jan 2022 00:00:00 +0000</pubDate>
-      <guid>https://jinningwang.github.io/#about/post/novelty/</guid>
+      <guid>https://jinningwang.github.io/post/novelty/</guid>
       <description>&lt;p&gt;I see reviewers regularly mistake complexity, difficulty, and technicality for novelty. In science reviewing, novelty seems to imply these things. We might be better served by removing the word “novelty” from the review instructions and replacing it with &lt;em&gt;beauty&lt;/em&gt;.&lt;/p&gt;
 &lt;p&gt;Beauty removes the notions of “technical” and “complex” and gets more to the heart of scientific novelty. A painting can be beautiful even if it is simple and the technical complexity is low. So can a paper. A little squiggle of paint by Picasso can be as beautiful as an intricate painting by Rembrandt.&lt;/p&gt;
 &lt;p&gt;Keeping beauty in mind, let’s look at some common reviewer misunderstandings about novelty.&lt;/p&gt;
@@ -79,9 +79,9 @@
     
     <item>
       <title>Model Development Workflow in ADNES</title>
-      <link>https://jinningwang.github.io/#about/post/andes_dev/</link>
+      <link>https://jinningwang.github.io/post/andes_dev/</link>
       <pubDate>Wed, 08 Dec 2021 00:00:00 +0000</pubDate>
-      <guid>https://jinningwang.github.io/#about/post/andes_dev/</guid>
+      <guid>https://jinningwang.github.io/post/andes_dev/</guid>
       <description>&lt;p&gt;Based on my personal development experience, I summarized this guide as a clue for those who want to try ANDES and develop models.&lt;/p&gt;
 &lt;h2 id=&#34;what-is-andes&#34;&gt;What is ANDES?&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&#34;https://docs.andes.app/en/stable/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ANDES&lt;/a&gt; is an open-source Python library for power system modeling and simulation developed by &lt;a href=&#34;https://cui.eecps.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Dr. Hantao Cui&lt;/a&gt;. ANDES allows users to develop new models by their own will, which can be easily done by translating block diagrams into models.&lt;/p&gt;
