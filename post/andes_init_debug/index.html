@@ -328,7 +328,7 @@
     />
   
   
-    <meta property="article:modified_time" content="2022-11-23T00:00:00&#43;00:00">
+    <meta property="article:modified_time" content="2022-11-27T00:00:00&#43;00:00">
   
 
 
@@ -359,7 +359,7 @@
   "headline": "ANDES Case File Tunning",
   
   "datePublished": "2022-11-23T00:00:00Z",
-  "dateModified": "2022-11-23T00:00:00Z",
+  "dateModified": "2022-11-27T00:00:00Z",
   
   "author": {
     "@type": "Person",
@@ -927,8 +927,10 @@
     
     
       
+          Last updated on
+      
     
-    Nov 23, 2022
+    Nov 27, 2022
   </span>
   
 
@@ -971,12 +973,25 @@
     <div class="article-style">
       <p>As dsicussed in <a href="https://github.com/cuihantao/andes/discussions/386" target="_blank" rel="noopener">ANDES Discussions #386</a>, the user may run into <em><strong>power flow divergence</strong></em> or <em><strong>TDS initialization error</strong></em> when revising cases file from given cases.</p>
 <p>In this blog, we will discuss how to fix these errors.</p>
+<p>The case files and source code can be found at <a href="https://github.com/jinningwang/jinningwang/tree/main/blogs/andes_init_debug" target="_blank" rel="noopener">andes_init_debug</a>.</p>
 <h2 id="power-flow-divergence">Power flow divergence</h2>
 <p>AC power flow resutls are used as the initialization points of TDS.</p>
 <p>In ANDES, devices <code>Bus</code>, <code>PQ</code>, <code>PV</code>, <code>Slack</code>, <code>Shunt</code>, <code>Line</code> are used to solve AC power flow.</p>
-<p>Usually, the user may revise the topology, such as adding new buses (<code>Bus</code>) or new generators (<code>PV</code>, <code>Slack</code>).</p>
+<p>Usually, the user may revise the system topology, such as adding new devices (<code>Bus</code>) or changing load (<code>PQ</code>).</p>
+<p>Belows are some possible reasons for failed power flow:</p>
+<ol>
+<li>Power load unbalance is too large;</li>
+<li>Bus initial voltage and angle are inapproriate.</li>
+</ol>
 <h2 id="tds-initialization-error">TDS initialization error</h2>
-<p>The case files and source code can be found at <a href="https://github.com/jinningwang/jinningwang/tree/main/blogs/andes_init_debug" target="_blank" rel="noopener">andes_init_debug</a>.</p>
+<p>After solving the AC power flow, the dynamic device can be initialized from the power flow results.</p>
+<p>Belows list some possible reasons for failed TDS initialization:</p>
+<p>If the TDS initialization failed, here are some possible reasons:</p>
+<ol>
+<li>Inapproriate limiter values, usually occurs in <code>TurbineGov</code>, <code>Exciter</code> if power flow is changed significantly;</li>
+<li>Inapproriate dynamic devcie parameters;</li>
+<li>Inapproriate equations in dynamic model, usually happens when developing new models.</li>
+</ol>
 
     </div>
 
