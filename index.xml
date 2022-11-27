@@ -33,7 +33,7 @@
     </item>
     
     <item>
-      <title>ANDES Case File Tunning</title>
+      <title>Fix Power Flow and TDS Initialization Error in ANDES</title>
       <link>https://example.com/post/andes_init_debug/</link>
       <pubDate>Wed, 23 Nov 2022 00:00:00 +0000</pubDate>
       <guid>https://example.com/post/andes_init_debug/</guid>
