@@ -18,13 +18,13 @@
       <pubDate>Wed, 23 Nov 2022 00:00:00 +0000</pubDate>
       <guid>https://jinningwang.github.io/#about/post/andes_init_debug/</guid>
       <description>&lt;p&gt;As dsicussed in &lt;a href=&#34;https://github.com/cuihantao/andes/discussions/386&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ANDES Discussions #386&lt;/a&gt;, the user may run into &lt;em&gt;&lt;strong&gt;power flow divergence&lt;/strong&gt;&lt;/em&gt; or &lt;em&gt;&lt;strong&gt;TDS initialization error&lt;/strong&gt;&lt;/em&gt; when revising cases file from given cases. In this blog, we will discuss how to fix these errors. The case files and source code can be found at &lt;a href=&#34;https://github.com/jinningwang/jinningwang/tree/main/blogs/andes_init_debug&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;andes_init_debug&lt;/a&gt;.&lt;/p&gt;
-&lt;h2 id=&#34;power-flow-divergence&#34;&gt;Power flow divergence&lt;/h2&gt;
+&lt;h1 id=&#34;power-flow-divergence&#34;&gt;Power flow divergence&lt;/h1&gt;
 &lt;p&gt;AC power flow resutls are used as the initialization points of TDS. In ANDES, devices &lt;code&gt;Bus&lt;/code&gt;, &lt;code&gt;PQ&lt;/code&gt;, &lt;code&gt;PV&lt;/code&gt;, &lt;code&gt;Slack&lt;/code&gt;, &lt;code&gt;Shunt&lt;/code&gt;, &lt;code&gt;Line&lt;/code&gt; are used to solve AC power flow. Usually, the user may revise the system topology, such as adding new devices (&lt;code&gt;Bus&lt;/code&gt;) or changing load (&lt;code&gt;PQ&lt;/code&gt;). Belows are some possible reasons for failed power flow:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Power load unbalance is too large;&lt;/li&gt;
 &lt;li&gt;Bus initial voltage and angle are inapproriate.&lt;/li&gt;
 &lt;/ol&gt;
-&lt;h2 id=&#34;tds-initialization-error&#34;&gt;TDS initialization error&lt;/h2&gt;
+&lt;h1 id=&#34;tds-initialization-error&#34;&gt;TDS initialization error&lt;/h1&gt;
 &lt;p&gt;After solving the AC power flow, the dynamic device can be initialized from the power flow results. Belows list some possible reasons for failed TDS initialization:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Inapproriate limiter values, usually occurs in &lt;code&gt;TurbineGov&lt;/code&gt;, &lt;code&gt;Exciter&lt;/code&gt; if power flow is changed significantly;&lt;/li&gt;
@@ -40,14 +40,14 @@
       <pubDate>Wed, 08 Dec 2021 00:00:00 +0000</pubDate>
       <guid>https://jinningwang.github.io/#about/post/andes_dev/</guid>
       <description>&lt;p&gt;Based on my personal development experience, I summarized this guide as a clue for those who want to try ANDES and develop models.&lt;/p&gt;
-&lt;h2 id=&#34;what-is-andes&#34;&gt;What is ANDES?&lt;/h2&gt;
+&lt;h1 id=&#34;what-is-andes&#34;&gt;What is ANDES?&lt;/h1&gt;
 &lt;p&gt;&lt;a href=&#34;https://docs.andes.app/en/stable/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ANDES&lt;/a&gt; is an open-source Python library for power system modeling and simulation developed by &lt;a href=&#34;https://cui.eecps.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Dr. Hantao Cui&lt;/a&gt;. ANDES allows users to develop new models by their own will, which can be easily done by translating block diagrams into models.&lt;/p&gt;
 &lt;p&gt;The philosophy of ANDES is introduced in:&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;H. Cui, F. Li and K. Tomsovic, &amp;ldquo;Hybrid Symbolic-Numeric Framework for Power System Modeling and Analysis,&amp;rdquo; in  &lt;em&gt;IEEE Transactions on Power Systems&lt;/em&gt; , vol. 36, no. 2, pp. 1373-1384, March 2021, doi: 10.1109/TPWRS.2020.3017019.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;ANDES is currently under &lt;em&gt;&lt;strong&gt;ACTIVE&lt;/strong&gt;&lt;/em&gt; development and maintenance by Dr. Hantao Cui.&lt;/p&gt;
-&lt;h2 id=&#34;how-to-develop-new-model-with-andes&#34;&gt;How to develop new model with ANDES?&lt;/h2&gt;
+&lt;h1 id=&#34;how-to-develop-new-model-with-andes&#34;&gt;How to develop new model with ANDES?&lt;/h1&gt;
 &lt;p&gt;Two examples for development new models are available at &lt;a href=&#34;https://docs.andes.app/en/stable/modeling/index.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Development&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Before developing a new model, it is recommended to go through the &lt;a href=&#34;https://docs.andes.app/en/stable/modelref.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Model reference&lt;/a&gt; and check out the existing groups and their functions. Then the following steps can be followed:&lt;/p&gt;
 &lt;ol&gt;

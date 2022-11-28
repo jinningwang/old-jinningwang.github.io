@@ -1009,13 +1009,13 @@
 
     <div class="article-style">
       <p>As dsicussed in <a href="https://github.com/cuihantao/andes/discussions/386" target="_blank" rel="noopener">ANDES Discussions #386</a>, the user may run into <em><strong>power flow divergence</strong></em> or <em><strong>TDS initialization error</strong></em> when revising cases file from given cases. In this blog, we will discuss how to fix these errors. The case files and source code can be found at <a href="https://github.com/jinningwang/jinningwang/tree/main/blogs/andes_init_debug" target="_blank" rel="noopener">andes_init_debug</a>.</p>
-<h2 id="power-flow-divergence">Power flow divergence</h2>
+<h1 id="power-flow-divergence">Power flow divergence</h1>
 <p>AC power flow resutls are used as the initialization points of TDS. In ANDES, devices <code>Bus</code>, <code>PQ</code>, <code>PV</code>, <code>Slack</code>, <code>Shunt</code>, <code>Line</code> are used to solve AC power flow. Usually, the user may revise the system topology, such as adding new devices (<code>Bus</code>) or changing load (<code>PQ</code>). Belows are some possible reasons for failed power flow:</p>
 <ol>
 <li>Power load unbalance is too large;</li>
 <li>Bus initial voltage and angle are inapproriate.</li>
 </ol>
-<h2 id="tds-initialization-error">TDS initialization error</h2>
+<h1 id="tds-initialization-error">TDS initialization error</h1>
 <p>After solving the AC power flow, the dynamic device can be initialized from the power flow results. Belows list some possible reasons for failed TDS initialization:</p>
 <ol>
 <li>Inapproriate limiter values, usually occurs in <code>TurbineGov</code>, <code>Exciter</code> if power flow is changed significantly;</li>
