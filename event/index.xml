@@ -17,18 +17,62 @@
       <link>https://jinningwang.github.io/#about/talk/example-talk/</link>
       <pubDate>Sat, 01 Jun 2030 13:00:00 +0000</pubDate>
       <guid>https://jinningwang.github.io/#about/talk/example-talk/</guid>
-      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Click on the &lt;strong&gt;Slides&lt;/strong&gt; button above to view the built-in slides feature.
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;Slides can be added in a few ways:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Create&lt;/strong&gt; slides using Wowchemy&amp;rsquo;s &lt;a href=&#34;https://wowchemy.com/docs/managing-content/#create-slides&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;Slides&lt;/em&gt;&lt;/a&gt; feature and link using &lt;code&gt;slides&lt;/code&gt; parameter in the front matter of the talk file&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Upload&lt;/strong&gt; an existing slide deck to &lt;code&gt;static/&lt;/code&gt; and link using &lt;code&gt;url_slides&lt;/code&gt; parameter in the front matter of the talk file&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Embed&lt;/strong&gt; your slides (e.g. Google Slides) or presentation video on this page using &lt;a href=&#34;https://wowchemy.com/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;shortcodes&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Further event details, including &lt;a href=&#34;https://wowchemy.com/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;page elements&lt;/a&gt; such as image galleries, can be added to the body of this page.&lt;/p&gt;
+      <description>&lt;p&gt;5x5 workout records (lbs):&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Date&lt;/th&gt;
+&lt;th&gt;Bench Press&lt;/th&gt;
+&lt;th&gt;Squat&lt;/th&gt;
+&lt;th&gt;Deadlift&lt;/th&gt;
+&lt;th&gt;Barbell Curl&lt;/th&gt;
+&lt;th&gt;Bent Over Row&lt;/th&gt;
+&lt;th&gt;Shoulder Press&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;2022-11&lt;/td&gt;
+&lt;td&gt;104&lt;/td&gt;
+&lt;td&gt;104&lt;/td&gt;
+&lt;td&gt;114&lt;/td&gt;
+&lt;td&gt;30&lt;/td&gt;
+&lt;td&gt;114&lt;/td&gt;
+&lt;td&gt;59&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;2022-10&lt;/td&gt;
+&lt;td&gt;104&lt;/td&gt;
+&lt;td&gt;94&lt;/td&gt;
+&lt;td&gt;104&lt;/td&gt;
+&lt;td&gt;30&lt;/td&gt;
+&lt;td&gt;104&lt;/td&gt;
+&lt;td&gt;59&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;2022-09&lt;/td&gt;
+&lt;td&gt;99&lt;/td&gt;
+&lt;td&gt;84&lt;/td&gt;
+&lt;td&gt;74&lt;/td&gt;
+&lt;td&gt;25&lt;/td&gt;
+&lt;td&gt;89&lt;/td&gt;
+&lt;td&gt;44&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;2022-08&lt;/td&gt;
+&lt;td&gt;79&lt;/td&gt;
+&lt;td&gt;94&lt;/td&gt;
+&lt;td&gt;49&lt;/td&gt;
+&lt;td&gt;20&lt;/td&gt;
+&lt;td&gt;64&lt;/td&gt;
+&lt;td&gt;49&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Related websites:&lt;/p&gt;
+&lt;p&gt;Strength level calculator: &lt;a href=&#34;https://strengthlevel.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Strength Level - Weightlifting Calculator (Bench/Squat/Deadlift)&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Muscle: &lt;a href=&#34;https://musclewiki.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MuscleWiki&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;5x5 Workout: &lt;a href=&#34;https://stronglifts.com/5x5/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;StrongLifts 5×5 workout: Get Stronger by Lifting 3x/Week&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
