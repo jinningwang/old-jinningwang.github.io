@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Workout | Jinning Wang</title>
+    <link>https://jinningwang.github.io/#about/tag/workout/</link>
+      <atom:link href="https://jinningwang.github.io/#about/tag/workout/index.xml" rel="self" type="application/rss+xml" />
+    <description>Workout</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 18 Aug 2022 19:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://jinningwang.github.io/#about/media/icon_hu34517862f4a1ff29f087ce92eb66ea20_25692_512x512_fill_lanczos_center_3.png</url>
+      <title>Workout</title>
+      <link>https://jinningwang.github.io/#about/tag/workout/</link>
+    </image>
+    
+    <item>
+      <title>Strength Training</title>
+      <link>https://jinningwang.github.io/#about/talk/strength-training/</link>
+      <pubDate>Thu, 18 Aug 2022 19:00:00 +0000</pubDate>
+      <guid>https://jinningwang.github.io/#about/talk/strength-training/</guid>
+      <description>&lt;p&gt;5x5 workout records (lbs):&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Date&lt;/th&gt;
+&lt;th&gt;Bench Press&lt;/th&gt;
+&lt;th&gt;Squat&lt;/th&gt;
+&lt;th&gt;Deadlift&lt;/th&gt;
+&lt;th&gt;Barbell Curl&lt;/th&gt;
+&lt;th&gt;Bent Over Row&lt;/th&gt;
+&lt;th&gt;Shoulder Press&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;2022-11&lt;/td&gt;
+&lt;td&gt;104&lt;/td&gt;
+&lt;td&gt;104&lt;/td&gt;
+&lt;td&gt;114&lt;/td&gt;
+&lt;td&gt;30&lt;/td&gt;
+&lt;td&gt;114&lt;/td&gt;
+&lt;td&gt;59&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;2022-10&lt;/td&gt;
+&lt;td&gt;104&lt;/td&gt;
+&lt;td&gt;94&lt;/td&gt;
+&lt;td&gt;104&lt;/td&gt;
+&lt;td&gt;30&lt;/td&gt;
+&lt;td&gt;104&lt;/td&gt;
+&lt;td&gt;59&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;2022-09&lt;/td&gt;
+&lt;td&gt;99&lt;/td&gt;
+&lt;td&gt;84&lt;/td&gt;
+&lt;td&gt;74&lt;/td&gt;
+&lt;td&gt;25&lt;/td&gt;
+&lt;td&gt;89&lt;/td&gt;
+&lt;td&gt;44&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;2022-08&lt;/td&gt;
+&lt;td&gt;79&lt;/td&gt;
+&lt;td&gt;94&lt;/td&gt;
+&lt;td&gt;49&lt;/td&gt;
+&lt;td&gt;20&lt;/td&gt;
+&lt;td&gt;64&lt;/td&gt;
+&lt;td&gt;49&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Related websites:&lt;/p&gt;
+&lt;p&gt;Strength level calculator: &lt;a href=&#34;https://strengthlevel.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Strength Level - Weightlifting Calculator&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Muscle: &lt;a href=&#34;https://musclewiki.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MuscleWiki&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;5x5 Workout: &lt;a href=&#34;https://stronglifts.com/5x5/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;StrongLifts 5×5 workout: Get Stronger by Lifting 3x/Week&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
