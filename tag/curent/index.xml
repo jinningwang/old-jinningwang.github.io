@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CURENT | Jinning Wang</title>
+    <link>https://jinningwang.github.io/#about/tag/curent/</link>
+      <atom:link href="https://jinningwang.github.io/#about/tag/curent/index.xml" rel="self" type="application/rss+xml" />
+    <description>CURENT</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 01 Mar 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://jinningwang.github.io/#about/media/icon_hu34517862f4a1ff29f087ce92eb66ea20_25692_512x512_fill_lanczos_center_3.png</url>
+      <title>CURENT</title>
+      <link>https://jinningwang.github.io/#about/tag/curent/</link>
+    </image>
+    
+    <item>
+      <title>Large-scale Testbed</title>
+      <link>https://jinningwang.github.io/#about/project/ltb/</link>
+      <pubDate>Mon, 01 Mar 2021 00:00:00 +0000</pubDate>
+      <guid>https://jinningwang.github.io/#about/project/ltb/</guid>
+      <description>&lt;p&gt;The electric power grid is undergoing unprecedented modernization toward higher reliability, higher efficiency, and lower cost through the integration of renewable energy, wide-area monitoring, and advanced control technology. This integration is making the transmission grid overwhelmingly complex to understand and model to apply new control or actuation technologies. This calls for a fast-prototyping platform for research and testing under the new transmission technology paradigm. Such a platform should be highly integrated, closed loop, and capable of mimicking a real power grid for testing new controls or algorithms. However, traditional software simulation packages usually perform specific tasks such as dynamic simulation or state estimation but lack the capability of providing an integrated closed-loop platform.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -5,12 +5,22 @@
     <link>https://jinningwang.github.io/#about/post/</link>
       <atom:link href="https://jinningwang.github.io/#about/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Posts</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 23 Nov 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 29 Nov 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://jinningwang.github.io/#about/media/icon_hu34517862f4a1ff29f087ce92eb66ea20_25692_512x512_fill_lanczos_center_3.png</url>
       <title>Posts</title>
       <link>https://jinningwang.github.io/#about/post/</link>
     </image>
+    
+    <item>
+      <title>Best-of Open Source Libraries for Power System Analysis</title>
+      <link>https://jinningwang.github.io/#about/post/bestps/</link>
+      <pubDate>Tue, 29 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>https://jinningwang.github.io/#about/post/bestps/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://github.com/jinningwang/best-of-ps&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;🏆 A ranked list of awesome open-source libraries and tools for Power Pystem Analysis&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Here is a weekly updated ranking list of popular open-source libraries for power system analysis! Welcome to put your favorite packages on it!&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Fix Power Flow and TDS Initialization Error in ANDES</title>

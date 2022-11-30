@@ -5,12 +5,23 @@
     <link>https://jinningwang.github.io/#about/publication/</link>
       <atom:link href="https://jinningwang.github.io/#about/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 01 Oct 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 22 Nov 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://jinningwang.github.io/#about/media/icon_hu34517862f4a1ff29f087ce92eb66ea20_25692_512x512_fill_lanczos_center_3.png</url>
       <title>Publications</title>
       <link>https://jinningwang.github.io/#about/publication/</link>
     </image>
+    
+    <item>
+      <title>DiME and AGVIS A Distributed Messaging Environment and Geographical Visualizer for Large-scale Power System Simulation</title>
+      <link>https://jinningwang.github.io/#about/publication/agvis/</link>
+      <pubDate>Tue, 22 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>https://jinningwang.github.io/#about/publication/agvis/</guid>
+      <description>&lt;p&gt;This work introduces two open-source libraries of LTB for large-scale power system simulation, &lt;a href=&#34;https://github.com/CURENT/dime&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;DiME&lt;/a&gt; and &lt;a href=&#34;https://github.com/CURENT/agvis&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;AGVis&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Distributed Messaging Environment (DiME) implements an asynchronous shared workspace to enable high-concurrent data exchange.&lt;/p&gt;
+&lt;p&gt;Another Grid Visualizer (AGVis) is presented as a geovisualization tool that facilitates the visualization of real-time power system simulation.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Electricity consumption variation versus economic structure during COVID-19 on metropolitan statistical areas in the US</title>

@@ -5,12 +5,22 @@
     <link>https://jinningwang.github.io/#about/tag/ltb/</link>
       <atom:link href="https://jinningwang.github.io/#about/tag/ltb/index.xml" rel="self" type="application/rss+xml" />
     <description>LTB</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 23 Nov 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 29 Nov 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://jinningwang.github.io/#about/media/icon_hu34517862f4a1ff29f087ce92eb66ea20_25692_512x512_fill_lanczos_center_3.png</url>
       <title>LTB</title>
       <link>https://jinningwang.github.io/#about/tag/ltb/</link>
     </image>
+    
+    <item>
+      <title>Best-of Open Source Libraries for Power System Analysis</title>
+      <link>https://jinningwang.github.io/#about/post/bestps/</link>
+      <pubDate>Tue, 29 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>https://jinningwang.github.io/#about/post/bestps/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://github.com/jinningwang/best-of-ps&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;🏆 A ranked list of awesome open-source libraries and tools for Power Pystem Analysis&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Here is a weekly updated ranking list of popular open-source libraries for power system analysis! Welcome to put your favorite packages on it!&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Fix Power Flow and TDS Initialization Error in ANDES</title>
@@ -32,6 +42,25 @@
 &lt;li&gt;Inapproriate equations in dynamic model, usually happens when developing new models.&lt;/li&gt;
 &lt;/ol&gt;
 </description>
+    </item>
+    
+    <item>
+      <title>DiME and AGVIS A Distributed Messaging Environment and Geographical Visualizer for Large-scale Power System Simulation</title>
+      <link>https://jinningwang.github.io/#about/publication/agvis/</link>
+      <pubDate>Tue, 22 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>https://jinningwang.github.io/#about/publication/agvis/</guid>
+      <description>&lt;p&gt;This work introduces two open-source libraries of LTB for large-scale power system simulation, &lt;a href=&#34;https://github.com/CURENT/dime&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;DiME&lt;/a&gt; and &lt;a href=&#34;https://github.com/CURENT/agvis&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;AGVis&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Distributed Messaging Environment (DiME) implements an asynchronous shared workspace to enable high-concurrent data exchange.&lt;/p&gt;
+&lt;p&gt;Another Grid Visualizer (AGVis) is presented as a geovisualization tool that facilitates the visualization of real-time power system simulation.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Disturbance Propagation in Power Grids With High Converter Penetration</title>
+      <link>https://jinningwang.github.io/#about/publication/emw/</link>
+      <pubDate>Sun, 01 May 2022 00:00:00 +0000</pubDate>
+      <guid>https://jinningwang.github.io/#about/publication/emw/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -60,6 +89,15 @@
 &lt;li&gt;Load the test case, and run the &lt;code&gt;ss.TDS.init()&lt;/code&gt; to see if the initialization is successful. If initialization runs into an error, you may need to tune the model initialization equations (&lt;code&gt;v_str&lt;/code&gt; defined in the model). Remember to run &lt;code&gt;andes prep&lt;/code&gt; and restart the kernel (for Jupyter Notebook users) every time you make a change to the model code.&lt;/li&gt;
 &lt;li&gt;After finishing the model development, it is encouraged to check the code style (can be done by package flake8) and open a PR to contribute it into the &lt;a href=&#34;https://github.com/cuihantao/andes&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ADNES repo&lt;/a&gt;.&lt;/li&gt;
 &lt;/ol&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Large-scale Testbed</title>
+      <link>https://jinningwang.github.io/#about/project/ltb/</link>
+      <pubDate>Mon, 01 Mar 2021 00:00:00 +0000</pubDate>
+      <guid>https://jinningwang.github.io/#about/project/ltb/</guid>
+      <description>&lt;p&gt;The electric power grid is undergoing unprecedented modernization toward higher reliability, higher efficiency, and lower cost through the integration of renewable energy, wide-area monitoring, and advanced control technology. This integration is making the transmission grid overwhelmingly complex to understand and model to apply new control or actuation technologies. This calls for a fast-prototyping platform for research and testing under the new transmission technology paradigm. Such a platform should be highly integrated, closed loop, and capable of mimicking a real power grid for testing new controls or algorithms. However, traditional software simulation packages usually perform specific tasks such as dynamic simulation or state estimation but lack the capability of providing an integrated closed-loop platform.&lt;/p&gt;
 </description>
     </item>
     
