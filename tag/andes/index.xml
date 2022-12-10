@@ -17,8 +17,7 @@
       <link>https://jinningwang.github.io/#about/post/bestps/</link>
       <pubDate>Tue, 29 Nov 2022 00:00:00 +0000</pubDate>
       <guid>https://jinningwang.github.io/#about/post/bestps/</guid>
-      <description>&lt;h1 id=&#34;popular-open-source-libraries-for-power-system-analysis&#34;&gt;Popular Open Source Libraries for Power System Analysis&lt;/h1&gt;
-&lt;p&gt;&lt;a href=&#34;https://github.com/jinningwang/best-of-ps&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;🏆 A ranked list of awesome open-source libraries and tools for Power Pystem Analysis&lt;/a&gt;&lt;/p&gt;
+      <description>&lt;p&gt;&lt;a href=&#34;https://github.com/jinningwang/best-of-ps&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;🏆 A ranked list of awesome open-source libraries and tools for Power Pystem Analysis&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;This curated list contains more than 30 open-source projects grouped into 11 categories. All projects are ranked by a project-popular score, which is calculated based on various metrics automatically collected from GitHub and different package managers.&lt;/p&gt;
 &lt;h1 id=&#34;selected-contents&#34;&gt;Selected Contents&lt;/h1&gt;
 &lt;h2 id=&#34;dynamic&#34;&gt;Dynamic&lt;/h2&gt;
@@ -44,7 +43,7 @@
     </item>
     
     <item>
-      <title>Fix Power Flow and TDS Initialization Error in ANDES</title>
+      <title>Fix Power Flow Divergence and TDS Initialization Error in ANDES</title>
       <link>https://jinningwang.github.io/#about/post/andes_init_debug/</link>
       <pubDate>Wed, 23 Nov 2022 00:00:00 +0000</pubDate>
       <guid>https://jinningwang.github.io/#about/post/andes_init_debug/</guid>
