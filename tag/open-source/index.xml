@@ -13,12 +13,33 @@
     </image>
     
     <item>
-      <title>Best-of Open Source Libraries for Power System Analysis</title>
+      <title>Popular Open Source Libraries for Power System Analysis</title>
       <link>https://jinningwang.github.io/#about/post/bestps/</link>
       <pubDate>Tue, 29 Nov 2022 00:00:00 +0000</pubDate>
       <guid>https://jinningwang.github.io/#about/post/bestps/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://github.com/jinningwang/best-of-ps&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;🏆 A ranked list of awesome open-source libraries and tools for Power Pystem Analysis&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Here is a weekly updated ranking list of popular open-source libraries for power system analysis! Welcome to put your favorite packages on it!&lt;/p&gt;
+      <description>&lt;h1 id=&#34;popular-open-source-libraries-for-power-system-analysis&#34;&gt;Popular Open Source Libraries for Power System Analysis&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/jinningwang/best-of-ps&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;🏆 A ranked list of awesome open-source libraries and tools for Power Pystem Analysis&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;This curated list contains more than 30 open-source projects grouped into 11 categories. All projects are ranked by a project-popular score, which is calculated based on various metrics automatically collected from GitHub and different package managers.&lt;/p&gt;
+&lt;h1 id=&#34;selected-contents&#34;&gt;Selected Contents&lt;/h1&gt;
+&lt;h2 id=&#34;dynamic&#34;&gt;Dynamic&lt;/h2&gt;
+&lt;h3 id=&#34;ltb-andeshttpsgithubcomcuihantaoandes&#34;&gt;&lt;a href=&#34;https://github.com/cuihantao/andes&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;LTB andes&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Python toolbox / library for power system transient dynamics simulation with symbolic modeling and numerical analysis 🔥&lt;/p&gt;
+&lt;h3 id=&#34;powersimulationsdynamicsjlhttpsgithubcomnrel-siippowersimulationsdynamicsjl&#34;&gt;&lt;a href=&#34;https://github.com/nrel-siip/powersimulationsdynamics.jl&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PowerSimulationsDynamics.jl&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Julia package to run Dynamic Power System simulations. Part of the Scalable Integrated Infrastructure Planning Initiative at the National Renewable Energy Lab.&lt;/p&gt;
+&lt;h2 id=&#34;steady-state&#34;&gt;Steady State&lt;/h2&gt;
+&lt;h3 id=&#34;pandapowerhttpswwwpandapowerorg&#34;&gt;&lt;strong&gt;&lt;a href=&#34;https://www.pandapower.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;pandapower&lt;/a&gt;&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;An easy to use open source tool for power system modeling, analysis and optimization with a high degree of automation.&lt;/p&gt;
+&lt;h3 id=&#34;pypsahttpspypsaorg&#34;&gt;&lt;strong&gt;&lt;a href=&#34;https://pypsa.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PyPSA&lt;/a&gt;&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;PyPSA stands for &lt;strong&gt;Python for Power System Analysis&lt;/strong&gt;. The aim of this project is to provide an open-source python environment for state-of-the-art energy system modelling. Here you find links to projects and research related to the PyPSA environment.&lt;/p&gt;
+&lt;h2 id=&#34;power-system-co-simulation&#34;&gt;Power System Co-Simulation&lt;/h2&gt;
+&lt;h3 id=&#34;large-scale-testbed-ltbhttpsgithubcomcurentltb2&#34;&gt;&lt;strong&gt;&lt;a href=&#34;https://github.com/CURENT/ltb2&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Large-scale Testbed (LTB)&lt;/a&gt;&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;The Large-scale Testbed (LTB) is a tightly integrated, closed-loop platform for rapid prototyping of power systems.&lt;/p&gt;
+&lt;h1 id=&#34;limitations&#34;&gt;Limitations&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;Project Data Collection&lt;/strong&gt;: The data collection is incomplete for the projects that are not majorly hosted in GitHub.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/best-of-lists/best-of-generator#project-quality-score&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Project Popularity Score&lt;/strong&gt;&lt;/a&gt;: The source template calls it as &lt;em&gt;&lt;em&gt;&lt;strong&gt;Quality&lt;/strong&gt;&lt;/em&gt; , however, I rename it as&lt;/em&gt; &lt;em&gt;&lt;strong&gt;Popularity&lt;/strong&gt;&lt;/em&gt;.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;This calculation is just chosen by &lt;em&gt;&lt;em&gt;&lt;strong&gt;EXPERIENCE&lt;/strong&gt;&lt;/em&gt; . There is&lt;/em&gt; &lt;strong&gt;&lt;em&gt;&lt;strong&gt;NO&lt;/strong&gt;&lt;/em&gt; scientific proof that this really reflects the&lt;/strong&gt; &lt;em&gt;&lt;strong&gt;QUALITY&lt;/strong&gt;&lt;/em&gt; of a project.&lt;/p&gt;
+&lt;/blockquote&gt;
 </description>
     </item>
     
