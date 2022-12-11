@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Comment | Jinning Wang</title>
-    <link>https://jinningwang.github.io/#about/category/comment/</link>
-      <atom:link href="https://jinningwang.github.io/#about/category/comment/index.xml" rel="self" type="application/rss+xml" />
-    <description>Comment</description>
+    <title>Coffee Break | Jinning Wang</title>
+    <link>https://jinningwang.github.io/#about/tag/coffee-break/</link>
+      <atom:link href="https://jinningwang.github.io/#about/tag/coffee-break/index.xml" rel="self" type="application/rss+xml" />
+    <description>Coffee Break</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 10 Dec 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://jinningwang.github.io/#about/media/icon_hu34517862f4a1ff29f087ce92eb66ea20_25692_512x512_fill_lanczos_center_3.png</url>
-      <title>Comment</title>
-      <link>https://jinningwang.github.io/#about/category/comment/</link>
+      <title>Coffee Break</title>
+      <link>https://jinningwang.github.io/#about/tag/coffee-break/</link>
     </image>
     
     <item>
