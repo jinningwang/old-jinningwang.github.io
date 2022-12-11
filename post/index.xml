@@ -18,20 +18,22 @@
       <pubDate>Sat, 10 Dec 2022 00:00:00 +0000</pubDate>
       <guid>https://jinningwang.github.io/#about/post/lessons/</guid>
       <description>&lt;h1 id=&#34;intro&#34;&gt;Intro&lt;/h1&gt;
-&lt;p&gt;Steven Weinberg gave four pieces of advice for graduate students at &lt;a href=&#34;https://doi.org/10.1038/426389a&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Weinberg, S. Four golden lessons. Nature 426, 389 (2003)&lt;/a&gt;. First, you don&amp;rsquo;t have to know everything. Second, when you are swimming and not sinking, you should aim for rough water. Third, forgive yourself for wasting time. Last, learning something about the history of science. As an engineering student, the article encourages me greatly, and my personal experience agrees with the lessons.&lt;/p&gt;
+&lt;p&gt;Steven Weinberg gave four pieces of advice for graduate students at &lt;a href=&#34;https://doi.org/10.1038/426389a&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Weinberg, S. Four golden lessons. Nature 426, 389 (2003)&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;First, you don&amp;rsquo;t have to know everything. Second, when you are swimming and not sinking, you should aim for rough water. Third, forgive yourself for wasting time. Last, learning something about the history of science.&lt;/p&gt;
+&lt;p&gt;As an engineering student, the article encourages me greatly, and my personal experience agrees with the lessons.&lt;/p&gt;
 &lt;h1 id=&#34;struggling&#34;&gt;Struggling&lt;/h1&gt;
-&lt;p&gt;Back in the summer of 2020, I expected to have some interesting work in the power system with my new degree in data science.
-In the beginning, I worked on a project to understand the impacts of COVID-19 on the power system. After about six months of work, we prepared the manuscript. I was restless before the results came out, although it was accepted after two rounds of revisions.
-First, I felt guilty about my weak background and methodology. The one-year study in Florida gave me a chance to overview the principles and techniques of data analysis, but I never practiced them. The project in Tennessee was the first time I practiced that, and I was undoubtedly stressed with my inexperienced skills.
-Second, I was doing a cross-domain study. Power system researchers usually focus on more technical issues, while we aim at a conclusion that seems to be a non-power system problem. It resulted in me not knowing it was an interesting problem or just an attempt leading us to nowhere.
-Third, there was a lot of labor rework during the data collection because I was unfamiliar with power grid data, and thus I felt guilty for the &amp;ldquo;wasted&amp;rdquo; time.
+&lt;p&gt;Back in the summer of 2020, I expected to have some interesting work in the power system with my new degree in data science.&lt;/p&gt;
+&lt;p&gt;In the beginning, I worked on a project to understand the impacts of COVID-19 on the power system. After about six months of work, we prepared the manuscript. I was restless before the results came out, although it was accepted after two rounds of revisions.&lt;/p&gt;
+&lt;p&gt;First, I felt guilty about my weak background and methodology. The one-year study in Florida gave me a chance to overview the principles and techniques of data analysis, but I never practiced them. The project in Tennessee was the first time I practiced that, and I was undoubtedly stressed with my inexperienced skills.&lt;/p&gt;
+&lt;p&gt;Second, I was doing a cross-domain study. Power system researchers usually focus on more technical issues, while we aim at a conclusion that seems to be a non-power system problem. It resulted in me not knowing it was an interesting problem or just an attempt leading us to nowhere.&lt;/p&gt;
+&lt;p&gt;Third, there was a lot of labor rework during the data collection because I was unfamiliar with power grid data, and thus I felt guilty for the &amp;ldquo;wasted&amp;rdquo; time.
 Lastly, I had weak confidence in the project because the motivation was ambiguous to me at that time.&lt;/p&gt;
 &lt;h1 id=&#34;learned-lessons&#34;&gt;Learned Lessons&lt;/h1&gt;
-&lt;p&gt;Half a year later, most worries turned out to be unnecessary when I reassessed the project, and this might be a reference for other graduate students in the early stage.
-First, I should not expect myself, a rookie in data analysis and power system, to be adept with the first practice. For the coding, I even needed to learn version control. Regarding the data source, I needed to get familiar with those common data sources of the power system.
-Second, the problem was still unknown, and nobody really knew what was behind it, which is also what makes it interesting.
-Third, I learned much from the failed attempts and finally found a solution. The skills of version control and virtual environment management saved me a lot of time while revising the paper and in the next LTB project.
-Last, the history of science is like the introduction of a paper. A better understanding of the history of the science, or the branch we are working with, is essential to build a comprehensive career horizon.&lt;/p&gt;
+&lt;p&gt;Half a year later, most worries turned out to be unnecessary when I reassessed the project, and this might be a reference for other graduate students in the early stage.&lt;/p&gt;
+&lt;p&gt;First, I should not expect myself, a rookie in data analysis and power system, to be adept with the first practice. For the coding, I even needed to learn version control. Regarding the data source, I needed to get familiar with those common data sources of the power system.&lt;/p&gt;
+&lt;p&gt;Second, the problem was still unknown, and nobody really knew what was behind it, which is also what makes it interesting.&lt;/p&gt;
+&lt;p&gt;Third, I learned much from the failed attempts and finally found a solution. The skills of version control and virtual environment management saved me a lot of time while revising the paper and in the next LTB project.&lt;/p&gt;
+&lt;p&gt;Last, the history of science is like the introduction of a paper. A better understanding of the history of the science, or the branch we are working with, is essential to build a comprehensive career horizon.&lt;/p&gt;
 </description>
     </item>
     
