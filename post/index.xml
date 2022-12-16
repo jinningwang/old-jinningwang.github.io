@@ -13,7 +13,7 @@
     </image>
     
     <item>
-      <title>Lessons I Learned from My Stressful First Two Years of PhD</title>
+      <title>Lessons I Learned from My First Project in PhD</title>
       <link>https://jinningwang.github.io/#about/post/lessons/</link>
       <pubDate>Sat, 10 Dec 2022 00:00:00 +0000</pubDate>
       <guid>https://jinningwang.github.io/#about/post/lessons/</guid>
@@ -23,13 +23,13 @@
 &lt;p&gt;As an engineering student, the article encourages me greatly, and my personal experience agrees with the lessons.&lt;/p&gt;
 &lt;h1 id=&#34;struggling&#34;&gt;Struggling&lt;/h1&gt;
 &lt;p&gt;Back in the summer of 2020, I expected to have some interesting work in the power system with my new degree in data science.&lt;/p&gt;
-&lt;p&gt;In the beginning, I worked on a project to understand the impacts of COVID-19 on the power system. After about six months of work, we prepared the manuscript. I was restless before the results came out, although it was accepted after two rounds of revisions.&lt;/p&gt;
-&lt;p&gt;First, I felt guilty about my weak background and methodology. The one-year study in Florida gave me a chance to overview the principles and techniques of data analysis, but I never practiced them. The project in Tennessee was the first time I practiced that, and I was undoubtedly stressed with my inexperienced skills.&lt;/p&gt;
-&lt;p&gt;Second, I was doing a cross-domain study. Power system researchers usually focus on more technical issues, while we aim at a conclusion that seems to be a non-power system problem. It resulted in me not knowing it was an interesting problem or just an attempt leading us to nowhere.&lt;/p&gt;
-&lt;p&gt;Third, there was a lot of labor rework during the data collection because I was unfamiliar with power grid data, and thus I felt guilty for the &amp;ldquo;wasted&amp;rdquo; time.&lt;/p&gt;
+&lt;p&gt;In the beginning, I worked on a project to understand the impacts of COVID-19 on the power system. After about six months of work, we prepared the manuscript.  Although it was finally accepted after two rounds of revisions, I was restless before the results came out.&lt;/p&gt;
+&lt;p&gt;First, I felt guilty about my weak background and methodology. The one-year study in Florida gave me a chance to know the principles and techniques of data analysis, but I never practiced them. The project in Tennessee was the first time I actually practiced it in real world, and I was undoubtedly stressed with my inexperienced skills.&lt;/p&gt;
+&lt;p&gt;Second, I was doing a cross-domain study. Power system researchers usually focus on more technical issues, while we aim at a issue that seems to be a non-power system problem. It resulted in me not knowing it was an interesting problem or just an attempt leading us to nowhere.&lt;/p&gt;
+&lt;p&gt;Third, there was a lot of repeated labor work during the data collection because I was unfamiliar with power grid data, and thus I felt guilty for the &amp;ldquo;wasted&amp;rdquo; time.&lt;/p&gt;
 &lt;p&gt;Lastly, I had weak confidence in the project because the motivation was ambiguous to me at that time.&lt;/p&gt;
 &lt;h1 id=&#34;learned-lessons&#34;&gt;Learned Lessons&lt;/h1&gt;
-&lt;p&gt;Half a year later, most worries turned out to be unnecessary when I reassessed the project, and this might be a reference for other graduate students in the early stage.&lt;/p&gt;
+&lt;p&gt;Half year later, most worries turned out to be unnecessary when I reassessed the project, and this might be a reference for other graduate students in the early stage.&lt;/p&gt;
 &lt;p&gt;First, I should not expect myself, a rookie in data analysis and power system, to be adept with the first practice. For the coding, I even needed to learn version control. Regarding the data source, I needed to get familiar with those common data sources of the power system.&lt;/p&gt;
 &lt;p&gt;Second, the problem was still unknown, and nobody really knew what was behind it, which is also what makes it interesting.&lt;/p&gt;
 &lt;p&gt;Third, I learned much from the failed attempts and finally found a solution. The skills of version control and virtual environment management saved me a lot of time while revising the paper and in the next LTB project.&lt;/p&gt;
