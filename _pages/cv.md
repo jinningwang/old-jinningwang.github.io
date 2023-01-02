@@ -19,13 +19,13 @@ Education
 Work experience
 ===============
 
-* Jun. 2019 - May 2020: Graduate Teaching Assistant
-
-  * University of West Florida
 * Jun. 2020 - Present: Graduate Research Assistant
 
   * University of Tennessee, Knoxville
   * Supervisor: Professor Fangxing Li
+* Jun. 2019 - May 2020: Graduate Teaching Assistant
+
+  * University of West Florida
 
 Skills
 ======
