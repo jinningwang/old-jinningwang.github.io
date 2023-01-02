@@ -15,7 +15,7 @@ Jinning Wang is currently pursuing a Ph.D. degree in electrical engineering at t
 
 This work shows that the reduction in total EC is related to the shares of certain industries in an MSA, whereas regardless of the incidence level or economic structure, the residential sector shows a trend of increasing EC across the continental U.S..
 
-[Wang, J., Li, F., Cui, H. et al. Electricity consumption variation versus economic structure during COVID-19 on metropolitan statistical areas in the US. Nat Commun 13, 7122 (2022).](https://jinningwang.github.io/publication/covid)
+[Wang, J., Li, F., Cui, H. et al. Electricity consumption variation versus economic structure during COVID-19 on metropolitan statistical areas in the US. Nat Commun 13, 7122 (2022).](https://www.nature.com/articles/s41467-022-34447-7)
 
 ## Popular Open Source Libraries for Power System Analysis
 
