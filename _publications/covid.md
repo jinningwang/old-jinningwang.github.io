@@ -8,7 +8,7 @@ venue: 'Nature Communications'
 paperurl: 'https://www.nature.com/articles/s41467-022-34447-7'
 citation: 'Wang, J., Li, F., Cui, H. et al. Electricity consumption variation versus economic structure during COVID-19 on metropolitan statistical areas in the US. Nat Commun 13, 7122 (2022). https://doi.org/10.1038/s41467-022-34447-7'
 ---
-![1672691148689](image/covid/1672691148689.png)
+![Feature Image](image/covid/feature.png)
 
 # Abstract
 
