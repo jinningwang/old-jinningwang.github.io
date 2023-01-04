@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Home"
+title: "Jinning Wang"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
