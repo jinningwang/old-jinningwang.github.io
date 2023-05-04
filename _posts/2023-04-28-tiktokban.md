@@ -9,7 +9,7 @@ In a recent opinion piece published in the [UT Daily Beacon](https://www.utdaily
 
 [SB 0843](https://wapp.capitol.tn.gov/apps/BillInfo/Default.aspx?BillNumber=SB0834) was filed for introduction on Jan. 30 to prohibit a public institution of higher education that provides internet access to students, faculty, staff or the general public from allowing an individual to access a video platform using the institution's network if the video platform is owned by a company headquartered outside of the United States.
 
-Then, [Amendment 1](https://wapp.capitol.tn.gov/apps/BillInfo/Default.aspx?BillNumber=SB0834) was made to the bill on March 2 to specify the range as social media platforms operated or hosted by a company based in the People’s Republic of China.
+Then, [Amendment 1](https://wapp.capitol.tn.gov/apps/BillInfo/Default.aspx?BillNumber=SB0834) was made to the bill on Mar. 2 to specify the range as social media platforms operated or hosted by a company based in the People’s Republic of China.
 
 **UT’s Swift Response to TikTok Law**
 
@@ -29,7 +29,7 @@ In order to foster a more inclusive and transparent decision-making process, it 
 
 **Disproportionate Reaction to the Law**
 
-*he law in question pertains specifically to social media platforms, yet the university's ban encompasses a broad range of apps without providing detailed justification. For example, WeChat is primarily a private messaging service for person-to-person communication rather than a social media platform.
+The law in question pertains specifically to social media platforms, yet the university's ban encompasses a broad range of apps without providing detailed justification. For example, WeChat is primarily a private messaging service for person-to-person communication rather than a social media platform.
 
 As guided by the U.S. Department of State’s Bureau of Consular Affairs, the social media platforms from China are listed as Douban, Qzone (QQ), Sina Weibo, Tencent Weibo and Youku.
 
