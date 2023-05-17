@@ -1,8 +1,11 @@
 ---
 title: 'On Chinese app ban, UT can comply with state law and protect individual rights'
 date: 2023-04-28
+author_profile: false
 permalink: /posts/2023/04/tiktokban/
 tags:
+  - TikTok Law
+  - UTK
 ---
 
 In a recent opinion piece published in the [UT Daily Beacon](https://www.utdailybeacon.com/opinion/guest_columns/opinion-on-chinese-app-ban-ut-can-comply-with-state-law-and-protect-individual-rights/article_105fa73e-e8f5-11ed-924c-67730fcda8d7.html), Jinning Wang shared his view on the University of Tennessee's ban on TikTok.

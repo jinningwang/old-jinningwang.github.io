@@ -4,6 +4,7 @@ collection: publications
 permalink: /publication/vis
 excerpt: 'This paper proposes a new concept called virtual inertia scheduling (VIS) to efficiently handle the high penetration of inverter-based resources (IBRs).'
 date: 2022-09-07
+author_profile: false
 venue: 'arXiv'
 paperurl: 'https://arxiv.org/abs/2209.06677'
 citation: 'She, B., Li, F., Cui, H., Wang, J., Zhang, Q., & Bo, R. (2022). Virtual Inertia Scheduling for Power Systems with High Penetration of Inverter-based Resources. arXiv. https://doi.org/10.48550/arXiv.2209.06677'

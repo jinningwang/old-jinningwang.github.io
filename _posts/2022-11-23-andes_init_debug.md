@@ -1,6 +1,7 @@
 ---
 title: 'Fix Power Flow Divergence and TDS Initialization Error in ANDES'
 date: 2022-11-23
+author_profile: false
 permalink: /posts/2022/11/andes_init_debug/
 tags:
   - Power System Modeling
