@@ -4,6 +4,7 @@ collection: publications
 permalink: /publication/covid
 excerpt: 'This work shows that the reduction in total EC is related to the shares of certain industries in an MSA, whereas regardless of the incidence level or economic structure, the residential sector shows a trend of increasing EC across the continental U.S..'
 date: 2022-11-19
+author_profile: false
 venue: 'Nature Communications'
 paperurl: 'https://www.nature.com/articles/s41467-022-34447-7'
 citation: 'Wang, J., Li, F., Cui, H. et al. Electricity consumption variation versus economic structure during COVID-19 on metropolitan statistical areas in the US. Nat Commun 13, 7122 (2022). https://doi.org/10.1038/s41467-022-34447-7'

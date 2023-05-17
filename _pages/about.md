@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Jinning Wang"
+title: "About"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
@@ -10,6 +10,10 @@ redirect_from:
 Jinning Wang is currently pursuing a Ph.D. degree in electrical engineering at the University of Tennessee, Knoxville, TN, USA, advised by [Prof. Fangxing Li](http://web.eecs.utk.edu/~fli6/). His research interests include Data Mining, Power System Modeling, and Renewable Integration.
 
 # Selected Works
+
+## Progress of Chinese App Ban at University of Tennessee
+
+The Obeservation of an International Student on Progress of Chinese App Ban: State Legislation, University Policy, and the Affected Community at the UT. Click [here](/posts/2023/05/appban/) to check.
 
 ## Electricity consumption variation versus economic structure during COVID-19 on metropolitan statistical areas in the US
 

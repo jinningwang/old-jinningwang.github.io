@@ -4,6 +4,7 @@ collection: publications
 permalink: /publication/dime
 excerpt: 'This paper introduces Distributed Messaging Environment (DiME) and Another Grid Visualizer (AGVis).'
 date: 2022-11-22
+author_profile: false
 venue: 'arXiv'
 paperurl: 'https://arxiv.org/abs/2211.11990'
 citation: 'Parsly, N., Wang, J., West, N., Zhang, Q., Cui, H., & Li, F. (2022). DiME and AGVIS A Distributed Messaging Environment and Geographical Visualizer for Large-scale Power System Simulation. arXiv. https://doi.org/10.48550/arXiv.2211.11990'
