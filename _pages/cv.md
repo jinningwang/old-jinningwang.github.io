@@ -27,8 +27,8 @@ Work experience
 
   * University of West Florida
 
-Publications
-============
+Part of Publications
+====================
 
 <ul>{% for post in site.publications reversed%}
     {% include archive-single-cv.html %}
@@ -54,12 +54,11 @@ Service
 * IEEE Student Member
 
 Honors
-=======
+======
 
+* Best Paper Award on 55th Annual North American Power Symposium, Oct. 2023
 * Outstanding Service Award for Contribution to the Success of the 2023 CURENT Industry Conference, May 2023
-
 * Min H Kao EECS Fellowship for Excellent Academic Performance, Aug. 2022
-
 * China Graduate National Scholarship, Nov. 2019
 
 Skills
@@ -74,4 +73,4 @@ Skills
 * Programming
   * Python
 * Open Source Contributions
-  * LTB: ANDES, AGVis
+  * CURENT Large-scale Testbed (LTB)
