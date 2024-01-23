@@ -29,14 +29,24 @@ This work shows that the reduction in total EC is related to the shares of certa
 
 ### Peer Review
 
-IEEE: ![TPWRS](https://img.shields.io/badge/TPWRS-2-blue.svg)   ![TSG](https://img.shields.io/badge/TSG-7-blue.svg) ![TSTE](https://img.shields.io/badge/TSTE-1-blue.svg)  ![TRWRD](https://img.shields.io/badge/TRWRD-2-blue.svg)  ![OAJPE](https://img.shields.io/badge/OAJPE-2-blue.svg)
+IEEE: ![IEEE Transactions on Power Systems](https://img.shields.io/badge/IEEE%20Transactions%20on%20Power%20Systems-2-blue.svg)   ![IEEE Transactions on Smart Grid](https://img.shields.io/badge/IEEE%20Transactions%20on%20Smart%20Grid-7-blue.svg) ![IEEE Transactions on Sustainable Energy](https://img.shields.io/badge/IEEE%20Transactions%20on%20Sustainable%20Energy-1-blue.svg)  ![IEEE Transactions on Power Delivery](https://img.shields.io/badge/IEEE%20Transactions%20on%20Power%20Delivery-2-blue.svg)  ![IEEE Open Access Journal of Power and Energy](https://img.shields.io/badge/IEEE%20Open%20Access%20Journal%20of%20Power%20and%20Energy-2-blue.svg)
 
-Springer: ![PCMP](https://img.shields.io/badge/PCMP-1-blue.svg)  
+Springer: ![Protection and Control of Modern Power Systems](https://img.shields.io/badge/Protection%20and%20Control%20of%20Modern%20Power%20Systems-1-blue.svg)  
 
-Elsevier: ![EnergyConversionAndEconomics](https://img.shields.io/badge/EnergyConversionAndEconomics-1-blue.svg)
+Elsevier: ![Energy Conversion and Economics](https://img.shields.io/badge/Energy%20Conversion%20and%20Economics-1-blue.svg)
 
 ### Open Source
 
 <a href="https://github.com/jinningwang/github-readme-stats">
   <img height=150 align="center" src="https://github-readme-stats.vercel.app/api?username=jinningwang"/>
 </a>
+
+## Honors
+
+![NAPS](https://img.shields.io/badge/North_American_Power_Symposium_Best_Paper-2023-blue)
+
+![CURENT](https://img.shields.io/badge/CURENT_Industry_Conference_Outstanding_Service-2023-blue)
+
+![Fellowship](https://img.shields.io/badge/Min_H_Kao_EECS_Fellowship_Excellent_Academic_Performance-2022-blue)
+
+![Scholarship](https://img.shields.io/badge/China_Graduate_National_Scholarship-2019-blue)
