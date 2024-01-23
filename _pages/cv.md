@@ -16,7 +16,7 @@ Education
 * M.S. in Electrical Engineering, Taiyuan University of Technology, 2020
 * B.S. in Electrical Engineering, Taiyuan University of Technology, 2017
 
-Work experience
+Experience
 ===============
 
 * Jun. 2020 - Present: Graduate Research Assistant
@@ -51,7 +51,7 @@ Talks
 Service
 =======
 
-* IEEE Student Member
+* IEEE Graduate Student Member
 
 Honors
 ======
@@ -60,17 +60,3 @@ Honors
 * Outstanding Service Award for Contribution to the Success of the 2023 CURENT Industry Conference, May 2023
 * Min H Kao EECS Fellowship for Excellent Academic Performance, Aug. 2022
 * China Graduate National Scholarship, Nov. 2019
-
-Skills
-======
-
-* Power System Operations
-  * Power System Modeling
-  * Renewable Integration
-* Data Science
-  * Statistical Analysis
-  * Data Visualization
-* Programming
-  * Python
-* Open Source Contributions
-  * CURENT Large-scale Testbed (LTB)
