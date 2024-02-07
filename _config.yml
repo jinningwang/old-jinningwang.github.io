@@ -90,7 +90,7 @@ analytics:
   provider               :  "google" # false (default), "google", "google-universal", "custom"
   google:
     tracking_id          : "G-Q5QXKS110D"
-    anonymize_ip: false # default
+    anonymize_ip: true # default
 
 
 # Site Author
